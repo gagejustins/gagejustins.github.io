@@ -3,6 +3,7 @@ body {
     width: 70%;
     font-family: 'Roboto Mono', monospace;
     font-size: 1em;
+    color: red;
 }
 nav ul, footer ul {
     font-family:'Playfair Display', 'Serif';
