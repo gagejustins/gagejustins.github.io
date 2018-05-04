@@ -41,6 +41,7 @@ h4.posts {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
 }
 
 ul.posts li {
