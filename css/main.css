@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.cv {
+p.cv, ul.cv, ol.cv {
     font-size: .8em;
 }
 
