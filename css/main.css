@@ -54,11 +54,11 @@ h4.about {
     font-size: .8em;
 }*/
 
-ul.posts, ol.posts { 
+ul.post, ol.post { 
     margin: 20px auto 40px; 
 }
 
-ul.posts li {
+ul.post li {
     list-style: none;
     font-family: 'Roboto Mono', monospace;
 }
