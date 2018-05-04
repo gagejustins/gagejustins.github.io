@@ -39,7 +39,6 @@ p, ul, ol {
     font-size: 1.3em;
     line-height: 1.4em;
     color: #333;
-    color: red;
 }
 
 footer {
@@ -47,7 +46,11 @@ footer {
     font-size: .8em;
 }
 
-p.cv, ul.cv, ol.cv {
+p.cv {
+    font-size: 1em;
+}
+
+ul.cv, ol.cv li {
     font-size: 1em;
 }
 
