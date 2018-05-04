@@ -18,12 +18,14 @@ Volume peaked in 1996 with 677 initial public offerings. Interestingly enough, e
 
 But if you look closer, the aggregate value of these internet IPOs didn’t peak later, until 1999 and 2000.
 
+<img src="/assets/images/ipos/ipo2.png" alt="Number of IPOs and Aggregate Proceeds" width="100%"/>
 
 So what we see here is essentially the bubble — even though fewer companies were actually going public at the end of the 90’s, they were raking in way more cash than ever before.
 
-Where were these IPOs happening?
+<h3>Where were these IPOs happening?</h3>
 The lion’s share of these IPOs were obviously technology companies. Nasdaq was only founded in 1971, but boy did it ramp up quickly — already by 1983 it was bringing companies public at a volume 40x that of the NYSE. Yet, on the way towards the internet era, Nasdaq was losing share to the NYSE, and fast. The dot-com boom seems to have reversed that trend temporarily.
 
+<img src="/assets/images/ipos/ipo3.png" alt="Share of Total IPOs By Exchange" width="100%"/>
 
 The share differential returned to almost pre-90’s levels around 1999/2000, but then continued its steady decline, until the Nasdaq was temporarily overtaken by the NYSE around 2010 two separate times. Over the past few years though, the Nasdaq appears to have re-asserted its dominance.
 
