@@ -48,7 +48,7 @@ h4.about {
     font-family: 'Roboto Mono', monospace;
 }
 
-p.posts {
+body.post {
     font-size: .8em;
     color: red;
 }
