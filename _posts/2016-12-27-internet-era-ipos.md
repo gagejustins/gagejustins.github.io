@@ -13,7 +13,7 @@ Like any good data scientist, I felt awkward making claims without data to back 
 The beginning point is that there was an absolute explosion of IPOs around the mid-late 1990's.
 
 <br />
-<img src="/assets/images/ipos/ipo1.png" alt="IPO Volume By Year" width="90%"/>
+<img src="/assets/images/ipos/ipo1.png" alt="IPO Volume By Year" width="80%"/>
 <br />
 
 Volume peaked in 1996 with 677 initial public offerings. Interestingly enough, even though the dot-com bubble is generally assumed to span from 1995 to about 2001, the volume of IPOs here trails off after 1996, and by 2000, it wasn’t much higher than in the mid-late 80's.
@@ -21,7 +21,7 @@ Volume peaked in 1996 with 677 initial public offerings. Interestingly enough, e
 But if you look closer, the aggregate value of these internet IPOs didn’t peak later, until 1999 and 2000.
 
 <br />
-<img src="/assets/images/ipos/ipo2.png" alt="Number of IPOs and Aggregate Proceeds" width="90%"/>
+<img src="/assets/images/ipos/ipo2.png" alt="Number of IPOs and Aggregate Proceeds" width="80%"/>
 <br />
 
 So what we see here is essentially the bubble — even though fewer companies were actually going public at the end of the 90’s, they were raking in way more cash than ever before.
@@ -32,7 +32,7 @@ So what we see here is essentially the bubble — even though fewer companie
 The lion’s share of these IPOs were obviously technology companies. Nasdaq was only founded in 1971, but boy did it ramp up quickly — already by 1983 it was bringing companies public at a volume 40x that of the NYSE. Yet, on the way towards the internet era, Nasdaq was losing share to the NYSE, and fast. The dot-com boom seems to have reversed that trend temporarily.
 
 <br />
-<img src="/assets/images/ipos/ipo3.png" alt="Share of Total IPOs By Exchange" width="90%"/>
+<img src="/assets/images/ipos/ipo3.png" alt="Share of Total IPOs By Exchange" width="80%"/>
 <br />
 
 The share differential returned to almost pre-90’s levels around 1999/2000, but then continued its steady decline, until the Nasdaq was temporarily overtaken by the NYSE around 2010 two separate times. Over the past few years though, the Nasdaq appears to have re-asserted its dominance.
@@ -40,7 +40,7 @@ The share differential returned to almost pre-90’s levels around 1999/2000, bu
 This trend has a lot less to do with the NYSE improving and much more to do with a weaker technology market than in the past. The following graph shows the number of Nasdaq IPOs over time, and the drop is absolutely staggering. NYSE hasn’t been getting better — Nasdaq has just been getting much, much worse.
 
 <br />
-<img src="/assets/images/ipos/ipo4.png" alt="Number of Total IPOs By Exchange" width="90%"/>
+<img src="/assets/images/ipos/ipo4.png" alt="Number of Total IPOs By Exchange" width="80%"/>
 <br />
 
 This is really an incredible, incredible shift — Nasdaq IPOs skyrocket across the entire decade of the 90’s and then come absolutely crashing down when the bubble burst. What a ride.
@@ -55,7 +55,7 @@ As Lewis describes in The New New Thing, the traditional road to an IPO involved
 If we take a look at the percentage of companies that went public in a given year that were profitable, the trend should not surprise us at all.
 
 <br />
-<img src="/assets/images/ipos/ipo5.png" alt="Share of IPOs Done By Profitable Companies" width="90%"/>
+<img src="/assets/images/ipos/ipo5.png" alt="Share of IPOs Done By Profitable Companies" width="80%"/>
 <br />
 
 By the peak of the dot-com boom, barely 15% of companies that went public were profitable. That’s down from 91% in 1980.
@@ -67,7 +67,7 @@ And when people bet on the future and totally ignore the present — well, y
 It also shouldn’t be surprising that the peak of VC investment, in terms of share of IPOs by VC backed companies, coincided with this exact trend. The Venture Capitalists were the ones often pushing these companies to go public despite convention (after all, they stood to profit the most). Here are the two stats layered:
 
 <br />
-<img src="/assets/images/ipos/ipo6.png" alt="Share of IPOs By Profitability and VC Investment" width="90%"/>
+<img src="/assets/images/ipos/ipo6.png" alt="Share of IPOs By Profitability and VC Investment" width="80%"/>
 <br />
 
 The lowest point of profitable companies going public coincides directly with the peak share that VCs have ever had in IPOs. Hm…
