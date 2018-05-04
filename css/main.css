@@ -24,6 +24,11 @@ h1 {
     font-size: 3em;
     font-family:'Playfair Display', serif;
 }
+
+h2 {
+    font-family:'Playfair Display', serif;
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -34,7 +39,7 @@ footer {
     font-size: .8em;
 }
 
-h4.posts {
+h4.about {
     font-family:'Playfair Display', serif;
 }
 
