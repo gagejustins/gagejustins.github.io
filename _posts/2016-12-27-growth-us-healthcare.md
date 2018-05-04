@@ -6,9 +6,9 @@ date: 2016-12-27
 
 <img src="/assets/images/healthcare/healthcare1.png" alt="Shkreli comic" width="60%"/>
 
-Healthcare expenditures are a hot topic right now — partially because of ugly media storms for drug price movement like Martin Shkreli and Epipen — but also because of the strange reality that healthcare costs us 17.1% of our GDP a year, as per recent figures. That’s 5% more than other developed countries like Germany, but our life expectancy (if that’s a proper measure of success) lags behind all of these places. It also helps that places like Oscar Health are marketing this problem hard, and arguing that they can solve it. Whatever the reason is, people are starting to pick up on this strange, strange reality.
+Healthcare expenditures are a hot topic right now — partially because of ugly media storms for drug price movement like [Martin Shkreli](http://www.cnbc.com/2016/07/14/accused-fraudster-martin-shkrelis-trial-set-for-june-26.html) and [Epipen](http://fortune.com/2016/09/27/mylan-epipen-heather-bresch/) — but also because of the strange reality that healthcare costs us 17.1% of our GDP a year, as per recent figures. That’s 5% more than other developed countries like Germany, but our life expectancy (if that’s a proper measure of success) lags behind all of these places. It also helps that places like Oscar Health are [marketing this problem hard](https://www.quora.com/session/Mario-Schlosser/1), and arguing that they can solve it. Whatever the reason is, people are starting to pick up on this strange, strange reality.
 
-But how did we get here? What grew, how, and when? Luckily, CMS.gov publishes data going all the way back to 1960 about different healthcare costs, including most government programs. There are plenty of professional, detailed reports about exactly how this crazy growth started, and I’m not trying to tackle that. This is just an simple attempt to visualize what’s been happening with U.S. Healthcare. You can check out my [R scripts here](http://rpubs.com/gagejustins/historic-US-healthcare-costs).
+But how did we get here? What grew, how, and when? Luckily, CMS.gov publishes data going all the way back to 1960 about different healthcare costs, including most government programs. There are plenty of [professional, detailed reports](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/Downloads/HistoricalNHEPaper.pdf) about exactly how this crazy growth started, and I’m not trying to tackle that. This is just an simple attempt to visualize what’s been happening with U.S. Healthcare. You can check out my [R scripts here](http://rpubs.com/gagejustins/historic-US-healthcare-costs).
 
 -----
 
@@ -27,7 +27,7 @@ The interesting thing is that this growth isn’t linear; it’s exponential. Gr
 This graph isn’t exactly fair, since they’re on difference scales. Here are the annual growth rates interplayed, and they really look like they have nothing to do with each other.
 
 
-Like we noted before, the growth rate looks to peak around 1980 around 16% or so — but then it’s been coming down ever since, with a few periods of volatility. Some argue that a lot of that had to do with conservative policies that pushed free market competition in place of Medicare / Medicaid expansion, but we’ll see below that the evidence suggests otherwise.
+Like we noted before, the growth rate looks to peak around 1980 around 16% or so — but then it’s been coming down ever since, with a few periods of volatility. Some argue that a lot of that had to do with [conservative policies that pushed free market competition](http://www.salon.com/2015/07/26/ronald_reagans_lasting_healthcare_legacy_how_80s_deficit_spending_and_conservative_ideologies_reshaped_the_healthcare_debate/) in place of Medicare / Medicaid expansion, but we’ll see below that the evidence suggests otherwise.
 
 You’ll also notice the small spike since 2010, which validates the current perception. Healthcare costs aren’t growing at the same rate as in the 60’s-80’s, but they’re starting to get moving again.
 
@@ -73,4 +73,4 @@ Leaving aside the initial shaking around when the programs were created, private
 
 -----
 
-There are a number of solid reasons why these costs have been growing, including increasing procedure costs, more expensive equipment, ill-structured incentives, and the employer provider model. This project doesn’t address any of that, and is just meant to visualize what’s been happening since 1960. I hope it’s helpful! If you have any questions or comments, email me or shout at @jgage718.
+There are a number of solid reasons why these costs have been growing, including increasing procedure costs, more expensive equipment, ill-structured incentives, and the employer provider model. This project doesn’t address any of that, and is just meant to visualize what’s been happening since 1960. I hope it’s helpful! If you have any questions or comments, [email me](mailto:gagejustins@gmail.com) or shout at @jgage718.
