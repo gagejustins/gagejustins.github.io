@@ -9,17 +9,21 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
-    color: "#AADB9A";
 }
+
 a:hover {
     text-decoration: underline;
+    color: "#AADB9A";
 }
+
 h1 {
     font-size: 3em;
     font-family:'Playfair Display', serif;
