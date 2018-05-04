@@ -49,12 +49,13 @@ h4.about {
 }
 
 /*Font size for blog posts*/
-.post {
+body .post {
     font-size: .8em;
 }
 
-ul.posts { 
+ul.posts, ol.posts { 
     margin: 20px auto 40px; 
+    font-size: 1em;
 }
 
 ul.posts li {
