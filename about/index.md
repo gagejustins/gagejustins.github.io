@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title: Justin Gage About
 ---
-<img src="./assets/images/dilbert"/>
+<img src="./assets/images/dilbert">
 
 ## Education  
 *New York University, Leonard N. Stern School of Business*  
