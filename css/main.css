@@ -49,7 +49,7 @@ h4.about {
 }
 
 /*Font size for blog posts*/
-body .post {
+.post {
     font-size: .8em;
 }
 
