@@ -2,7 +2,6 @@ body {
     margin: 60px auto;
     width: 70%;
     font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
 }
 nav ul, footer ul {
     font-family:'Playfair Display', 'Serif';
@@ -36,7 +35,7 @@ h2, h3 {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
@@ -51,7 +50,7 @@ h4.about {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: .7em;
+    font-size: 1em;
 }
 
 ul.posts li {
