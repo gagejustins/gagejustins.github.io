@@ -3,6 +3,11 @@ body {
     width: 70%;
     font-family: 'Roboto Mono', monospace;
 }
+
+.cv {
+    font-size: .8em;
+}
+
 nav ul, footer ul {
     font-family:'Playfair Display', 'Serif';
     padding: 0px;
