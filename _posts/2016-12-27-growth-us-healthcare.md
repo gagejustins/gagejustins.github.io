@@ -35,7 +35,7 @@ You’ll also notice the small spike since 2010, which validates the current per
 
 -----
 
-<h2>Which parts of healthcare costs are growing the fastest?</h2>
+<h1>Which parts of healthcare costs are growing the fastest?</h1>
 Steady increase is often driven by extremely high growth in a few elements of a system. Is that going on here? Are there specific parts of healthcare that have been growing much faster than others?
 
 To answer that question, we can take a look at the items with the top 10 growth rates in the system.
@@ -54,7 +54,7 @@ The weird thing is that once you remove CHIP programs from the data set, there i
 
 -----
 
-<h2>How do government programs fit into this equation?</h2>
+<h1>How do government programs fit into this equation?</h1>
 I mentioned that Medicare and Medicaid were curtailed a bit during the Reagan administration, but this doesn’t really do justice to the whole picture. The fact of the matter is that both Medicare and Medicaid have been steadily increasing their share of total healthcare expenditures, while private insurance has been on the decline. Overall, averaged across all years since 1960, private insurance accounts for a little over 50% of insurance expenditures.
 
 <br />
