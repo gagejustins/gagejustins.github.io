@@ -6,10 +6,8 @@ date: 2017-02-06
 
 To say that there’s disagreement about whether VCs are aligned with their founders would be a serious understatement. There seem to be two competing narratives about those creatures known as Venture Capitalists operate:
 
-<ol>
-	<li>Venture capitalists are cold, profit seeking investors who will always do what’s in their best financial interests, even if it screws over their entrepreneurs.</li>
-	<li>Venture capitalists are warm, passionate people who collaboratively engage with founders to help them build what they want to.</li>
-</ol>
+1. Venture capitalists are cold, profit seeking investors who will always do what’s in their best financial interests, even if it screws over their entrepreneurs.
+2. Venture capitalists are warm, passionate people who collaboratively engage with founders to help them build what they want to.
 
 Now, a lot of this stems from a cloud surrounding what VCs are after, one that’s thankfully been clearing up with the social media driven transparency of the past decade. It’s pretty clear by now how VCs return their funds, and it’s with outsized outcomes: that means that if you’re a founder and you don’t want to scale your company really fast, traditional VCs might not be the right fit for you (more on this later). Marc Andreessen argued in an old Tweetstorm that this realization has solved most alignment issues, if they ever existed.
 
