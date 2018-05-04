@@ -6,8 +6,7 @@ date: 2016-12-27
 
 A while back I wrote about Michael Lewis’s The New New Thing and how the internet created a fundamental, core change in the principles that had been guiding the U.S. stock market for what seemed like forever. While IPOs had traditionally only been for somewhat stable companies that made a modest profit, the 90’s turned that on its head — now, you could go public without having made any money whatsoever, and even without a clear business plan, in Jim Clark’s case(s).
 
-Like any good data scientist, I felt awkward making claims without data to back them up. Fortunately, University of Florida Professor Jay Ritter’s research and data almost made me forget that I can’t afford Capital IQ. You can check out my R code here. This is the statistical story of the crazy 90's.
-
+Like any good data scientist, I felt awkward making claims without data to back them up. Fortunately, University of Florida Professor Jay Ritter’s research and data almost made me forget that I can’t afford Capital IQ. You can check out my [R code here](http://rpubs.com/gagejustins/internet-era-and-IPOs). This is the statistical story of the crazy 90's.
 -----
 
 The beginning point is that there was an absolute explosion of IPOs around the mid-late 1990's.
@@ -25,6 +24,7 @@ But if you look closer, the aggregate value of these internet IPOs didn’t peak
 <br />
 
 So what we see here is essentially the bubble — even though fewer companies were actually going public at the end of the 90’s, they were raking in way more cash than ever before.
+-----
 
 <h2>Where were these IPOs happening?</h2>
 The lion’s share of these IPOs were obviously technology companies. Nasdaq was only founded in 1971, but boy did it ramp up quickly — already by 1983 it was bringing companies public at a volume 40x that of the NYSE. Yet, on the way towards the internet era, Nasdaq was losing share to the NYSE, and fast. The dot-com boom seems to have reversed that trend temporarily.
@@ -42,6 +42,7 @@ This trend has a lot less to do with the NYSE improving and much more to do with
 <br />
 
 This is really an incredible, incredible shift — Nasdaq IPOs skyrocket across the entire decade of the 90’s and then come absolutely crashing down when the bubble burst. What a ride.
+-----
 
 <h2>But what was the fundamental change? What was it about internet companies that drove the most IPOs in market history?</h2>
 Simple: profitability.
@@ -67,7 +68,7 @@ It also shouldn’t be surprising that the peak of VC investment, in terms of sh
 <br />
 
 The lowest point of profitable companies going public coincides directly with the peak share that VCs have ever had in IPOs. Hm…
-
+-----
 <h2>So what does this mean for today’s market?</h2>
 Perhaps the most interesting part of this graph is what’s been going on over the past decade. The share of yearly IPOs that are VC backed is climbing back towards its peak, and almost reached it last year, in 2015. And at the same time, the share of those companies that are profitable has fallen off the cliff right back to 2000 levels.
 
