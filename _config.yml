@@ -1,3 +1,5 @@
+plugins:
+ – jekyll-remote-theme
 remote_theme: heiswayi/thinkspace
 title: Justin's Stuff
 description: description
