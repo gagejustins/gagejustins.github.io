@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "How different stages of investors align with founders"
+title: "How different stages of investors align with founders: do early stage VCs have an advantage?" 
 date: 2017-02-06
 ---
 
-## Earlier investors may naturally more in-sync with their founders than their later stage counterparts
 To say that there’s disagreement about whether VCs are aligned with their founders would be a serious understatement. There seem to be two competing narratives about those creatures known as Venture Capitalists operate:
 
 <ol>
