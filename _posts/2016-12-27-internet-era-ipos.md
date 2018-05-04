@@ -12,7 +12,7 @@ Like any good data scientist, I felt awkward making claims without data to back 
 
 The beginning point is that there was an absolute explosion of IPOs around the mid-late 1990's.
 
-![IPO volume by year](/assets/images/ipos/ipo1.png){width=50%}
+<img src="assets/images/ipos/ipo1.png" alt="IPO Volume By Year" width=50%>
 
 Volume peaked in 1996 with 677 initial public offerings. Interestingly enough, even though the dot-com bubble is generally assumed to span from 1995 to about 2001, the volume of IPOs here trails off after 1996, and by 2000, it wasn’t much higher than in the mid-late 80's.
 
