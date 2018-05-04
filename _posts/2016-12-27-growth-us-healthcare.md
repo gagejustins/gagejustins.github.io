@@ -31,13 +31,18 @@ Like we noted before, the growth rate looks to peak around 1980 around 16% or so
 
 You’ll also notice the small spike since 2010, which validates the current perception. Healthcare costs aren’t growing at the same rate as in the 60’s-80’s, but they’re starting to get moving again.
 
-In summary: healthcare costs have been growing a lot since the 1950’s, and peaked growth around 1980. This growth has absolutely nothing to do with population growth.
+<strong>In summary</strong>: healthcare costs have been growing a lot since the 1950’s, and peaked growth around 1980. This growth has absolutely nothing to do with population growth.
 
-Which parts of healthcare costs are growing the fastest?
+-----
+
+<h2>Which parts of healthcare costs are growing the fastest?</h2>
 Steady increase is often driven by extremely high growth in a few elements of a system. Is that going on here? Are there specific parts of healthcare that have been growing much faster than others?
 
 To answer that question, we can take a look at the items with the top 10 growth rates in the system.
 
+<br />
+<img src="/assets/images/healthcare/healthcare4.png" alt="Top 10 Annualized Growth Rates" width="80%"/>
+<br />
 
 The three items to the left have 30% growth rates that dwarf everything else here. CHIP stands for Child Health Insurance Program, a government initiative introduced and implemented in 1998 that provides low cost insurance to children who’s parents make too much to quality for Medicaid. CHIP is broken down between Federal and State / Local here. Are these our culprits?
 
@@ -45,17 +50,27 @@ In short, no. Over its short 18 year history, CHIP on average runs about $8.5B a
 
 The weird thing is that once you remove CHIP programs from the data set, there isn’t much variability in growth rates at all; the standard deviation of growth rates across line items is about 2.8%. Federal Medicaid has grown the fastest at an annual rate of around 15%, but most other items aren’t far behind.
 
-In summary: the growth of healthcare expenditures isn’t being driven by a few high-growth expenses; it’s largely evenly distributed. Everything is costing more.
+<strong>In summary</strong>: the growth of healthcare expenditures isn’t being driven by a few high-growth expenses; it’s largely evenly distributed. Everything is costing more.
 
-How do government programs fit into this equation?
+-----
+
+<h2>How do government programs fit into this equation?</h2>
 I mentioned that Medicare and Medicaid were curtailed a bit during the Reagan administration, but this doesn’t really do justice to the whole picture. The fact of the matter is that both Medicare and Medicaid have been steadily increasing their share of total healthcare expenditures, while private insurance has been on the decline. Overall, averaged across all years since 1960, private insurance accounts for a little over 50% of insurance expenditures.
 
+<br />
+<img src="/assets/images/healthcare/healthcare5.png" alt="Share of Total Expenditures by Insurance Type" width="80%"/>
+<br />
 
 Medicare and Medicaid represent 27% and 20% of total healthcare expenditures, respectively. Over time, these shares have slowly but steadily increased.
 
+<br />
+<img src="/assets/images/healthcare/healthcare6.png" alt="Share of Total Expenditures by Insurance Type" width="80%"/>
+<br />
 
 Leaving aside the initial shaking around when the programs were created, private insurance as a share of total expenditures has dropped from 56% in 1967 to 47% in 2015. The lion’s share of the difference was eaten by Medicaid, which has grown from 17% in 1967 to 24% in 2015. Medicare has only grown ~2% over the period.
 
-In summary: government insurance programs grew only slightly faster than private ones from 1960–2015. Total expenditure growth is even across these groups too.
+<strong>In summary</strong>: government insurance programs grew only slightly faster than private ones from 1960–2015. Total expenditure growth is even across these groups too.
+
+-----
 
 There are a number of solid reasons why these costs have been growing, including increasing procedure costs, more expensive equipment, ill-structured incentives, and the employer provider model. This project doesn’t address any of that, and is just meant to visualize what’s been happening since 1960. I hope it’s helpful! If you have any questions or comments, email me or shout at @jgage718.
