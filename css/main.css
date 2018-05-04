@@ -4,10 +4,6 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-p.cv, ul.cv, ol.cv {
-    font-size: .8em;
-}
-
 nav ul, footer ul {
     font-family:'Playfair Display', 'Serif';
     padding: 0px;
@@ -40,13 +36,18 @@ h2, h3 {
 }
 
 p, ul, ol {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+
+p.cv, ul.cv, ol.cv {
+    font-size: 1em;
 }
 
 h4.about {
