@@ -4,7 +4,7 @@ title: "Visualizing the historical growth of U.S. healthcare costs, 1960–2015"
 date: 2016-12-27
 ---
 
-<img src="./assets/images/healthcare/healthcare1.png" alt="Shkreli comic" width="60%"/>
+<img src="/assets/images/healthcare/healthcare1.png" alt="Shkreli comic" width="60%"/>
 
 Healthcare expenditures are a hot topic right now — partially because of ugly media storms for drug price movement like Martin Shkreli and Epipen — but also because of the strange reality that healthcare costs us 17.1% of our GDP a year, as per recent figures. That’s 5% more than other developed countries like Germany, but our life expectancy (if that’s a proper measure of success) lags behind all of these places. It also helps that places like Oscar Health are marketing this problem hard, and arguing that they can solve it. Whatever the reason is, people are starting to pick up on this strange, strange reality.
 
@@ -15,13 +15,13 @@ But how did we get here? What grew, how, and when? Luckily, CMS.gov publishes da
 Venture Capitalists like to look for what they call the hockey stick graph, which is exactly the structure that healthcare costs show over the past 50 years.
 
 <br />
-<img src="./assets/images/healthcare/healthcare2.png" alt="Total National Healthcare Expenditures" width="80%"/>
+<img src="/assets/images/healthcare/healthcare2.png" alt="Total National Healthcare Expenditures" width="80%"/>
 <br />
 
 The interesting thing is that this growth isn’t linear; it’s exponential. Growth was moderate until around 1980, and then it took off like a rocket. The really strange thing is that none of this has to do with population growth. Here’s the population added on to the above graph.
 
 <br />
-<img src="./assets/images/healthcare/healthcare3.png" alt="National Healthcare Expenditures and Population" width="80%"/>
+<img src="/assets/images/healthcare/healthcare3.png" alt="National Healthcare Expenditures and Population" width="80%"/>
 <br />
 
 This graph isn’t exactly fair, since they’re on difference scales. Here are the annual growth rates interplayed, and they really look like they have nothing to do with each other.
