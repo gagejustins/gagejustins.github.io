@@ -38,7 +38,7 @@ A bit on the more specific side, Application AI startups develop technology that
 While investors can get away with not having experience in one of these specific applications, founders will likely have done projects involving this stuff in the past.
 
 ## 3. Industry AI Companies
-The final category of ML/AI companies applies these techniques to specific business problems in specific verticals. This is undoubtedly the lion’s share of the actual number of companies being founded, and in many ways represents the true promise of AI --- solving actual and immediate problems with new techniques. Here, it’s easier to give companies as examples. The format is always “AI for ________”:
+The final category of ML/AI companies applies these techniques to specific business problems in specific verticals. This is undoubtedly the lion’s share of the actual number of companies being founded, and in many ways represents the true promise of AI---solving actual and immediate problems with new techniques. Here, it’s easier to give companies as examples. The format is always “AI for ________”:
 
 * [DigitalGenius](https://www.digitalgenius.com/): AI for customer support
 * [Cylance](https://www.cylance.com/en_us/home.html): AI for cyber threat prevention
