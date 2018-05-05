@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making Sense of The Different Types of AI Companies" 
+title: "Making sense of The different types of AI companies" 
 date: 2017-09-06
 ---
 
