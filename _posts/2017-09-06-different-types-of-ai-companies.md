@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Making Sense of The Different Types of AI Companies" 
-description: "A framework for understanding how companies use AI"
 date: 2017-09-06
 ---
 
-As a Data Science grad from NYU and a VC analyst, I’m lucky to get to see and evaluate a lot of startups that are involved with AI (note: this term has some baggage. For the purposes of this post, I use AI and ML interchangeably to make things simpler). Heck, I’ve seen AI applied to some of the most obscure topics you can imagine, ranging from industrial energy usage all the way to finding the right GIFs. Using Artificial Intelligence to improve and create solutions to today’s pressing business and social problems is one of the defining trends of the tech world for me, and I’m more than excited to play a tiny (if insignificant) part of it.
+Over my time in the VC game, I was lucky to get to see and evaluate a lot of startups that are involved with AI (note: this term has some baggage. For the purposes of this post, I use AI and ML interchangeably to make things simpler). Heck, I’ve seen AI applied to some of the most obscure topics you can imagine, ranging from industrial energy usage all the way to finding the right GIFs. Using Artificial Intelligence to improve and create solutions to today’s pressing business and social problems is one of the defining trends of the tech world for me, and I’m more than excited to play a tiny (if insignificant) part of it.
 
 That rosy picture being painted, I’m also a big believer that the right terminology is key to explaining things properly. I’m afraid that our industry doesn’t always do a stellar job at categorizing itself: AI companies seem to get put together in large buckets without clear demarcations. That can confuse things and make this scene harder to decipher than it needs to be.
 
