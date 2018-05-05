@@ -48,6 +48,7 @@ footer {
 
 p.cv {
     font-size: 1em;
+    color: red;
 }
 
 ul.cv, ol.cv li {
