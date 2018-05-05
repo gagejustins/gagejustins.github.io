@@ -9,8 +9,7 @@ date: 2017-09-13
 
 _Note: all of the following applies to creating and training AI and Machine Learning models. Deploying those models at scale is a much different and more difficult challenge, and will be the subject of a follow-up post._
 
-# Simply complex software
-I like to say (often to myself) that things are getting both simpler and more complicated in the world of writing software.
+I like to say (often to myself, because I do that kind of thing) that things are getting both simpler and more complicated in the world of writing software.
 
 On the one hand, the expectations for an MVP today exceed anything we’ve ever seen — software is expected to run and not crash, work across devices, etc.
 
