@@ -12,7 +12,7 @@ That rosy picture being painted, I’m also a big believer that the right termin
 For example, my friends over at CB Insights put together a [stellar market map](https://www.cbinsights.com/research/artificial-intelligence-top-startups/) of the “top 100 AI startups.”
 
 <br />
-<img src="../assets/images/ai/a1.png" alt="CB Insights AI Market Map" width="80%"/>
+<img src="/assets/images/ai/a1.png" alt="CB Insights AI Market Map" width="80%"/>
 <br />
 
 This is a great resource by CBI, and clearly separates AI companies into segments based on the industries they tackle. But if we take a closer look, these categories don’t really work well together. Auto, Robotics, and Healthcare are industries, but Text Analysis and Vision are applications. And where does Core AI fit into the equation? These categories are very different, and probably shouldn’t be together in a single map. Let’s explore this distinction a bit further.
@@ -52,7 +52,7 @@ You get the gist by now — the common theme among these companies is that t
 To understand how these categories hold up in comparison to each other, we can define two critical axes for defining and evaluating these types of companies: ROI timeline and applicability, both from the customer perspective.
 
 <br />
-<img src="../assets/images/ai/a2.png" alt="The AI Spectrum" width="80%"/>
+<img src="/assets/images/ai/a2.png" alt="The AI Spectrum" width="80%"/>
 <br />
 
 The upper axis represents the ROI timeline for customers, while the lower axis shows the applicability to different types of businesses.
