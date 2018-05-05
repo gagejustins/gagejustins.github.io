@@ -2,7 +2,7 @@
 layout: post
 title: "Making Sense of The Different Types of AI Companies" 
 description: "A framework for understanding how companies use AI"
-date: 2017-02-06
+date: 2017-09-06
 ---
 
 As a Data Science grad from NYU and a VC analyst, I’m lucky to get to see and evaluate a lot of startups that are involved with AI (note: this term has some baggage. For the purposes of this post, I use AI and ML interchangeably to make things simpler). Heck, I’ve seen AI applied to some of the most obscure topics you can imagine, ranging from industrial energy usage all the way to finding the right GIFs. Using Artificial Intelligence to improve and create solutions to today’s pressing business and social problems is one of the defining trends of the tech world for me, and I’m more than excited to play a tiny (if insignificant) part of it.
@@ -12,7 +12,7 @@ That rosy picture being painted, I’m also a big believer that the right termin
 For example, my friends over at CB Insights put together a [stellar market map](https://www.cbinsights.com/research/artificial-intelligence-top-startups/) of the “top 100 AI startups.”
 
 <br />
-<img src="./assets/images/ai/a1.png" alt="CB Insights AI Market Map" width="80%"/>
+<img src="/assets/images/ai/a1.png" alt="CB Insights AI Market Map" width="80%"/>
 <br />
 
 This is a great resource by CBI, and clearly separates AI companies into segments based on the industries they tackle. But if we take a closer look, these categories don’t really work well together. Auto, Robotics, and Healthcare are industries, but Text Analysis and Vision are applications. And where does Core AI fit into the equation? These categories are very different, and probably shouldn’t be together in a single map. Let’s explore this distinction a bit further.
@@ -29,7 +29,7 @@ Core AI companies develop technology that improves parts of the AI creation or d
 
 These companies all innovate in some specific, industry-agnostic part of the AI pipeline. Some of them are specific tools, while others purport to have an entirely new approach to AI that will revolutionize how it’s done (see [Geometric Intelligence circa 2015](https://www.technologyreview.com/s/544606/can-this-man-make-ai-more-human/)). If you’re investing in Core AI companies, you should probably have a good understanding of how this pipeline works. If you’re founding one of these companies, you should probably have experience deploying Machine Learning and AI at scale.
 
-##2. Application AI Companies
+## 2. Application AI Companies
 A bit on the more specific side, Application AI startups develop technology that helps companies across different industries perform a specific task using AI. As with the above, here are some examples of those applications and a few interesting companies in each:
 
 * Analyzing and understanding text: [Indico](https://indico.io/), [Synapsify](http://www.gosynapsify.com/), [Lexalytics](https://www.lexalytics.com/)
@@ -38,7 +38,7 @@ A bit on the more specific side, Application AI startups develop technology that
 
 While investors can get away with not having experience in one of these specific applications, founders will likely have done projects involving this stuff in the past.
 
-##3. Industry AI Companies
+## 3. Industry AI Companies
 The final category of ML/AI companies apply these techniques to specific business problems in specific verticals. This is undoubtedly the lion’s share of the actual number of companies being founded, and in many ways represents the true promise of AI — solving actual and immediate problems with new techniques. Here, it’s easier to give companies as examples. The format is always “AI for ________”:
 
 * [DigitalGenius](https://www.digitalgenius.com/): AI for customer support
