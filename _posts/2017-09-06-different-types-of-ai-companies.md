@@ -38,7 +38,7 @@ A bit on the more specific side, Application AI startups develop technology that
 While investors can get away with not having experience in one of these specific applications, founders will likely have done projects involving this stuff in the past.
 
 ## 3. Industry AI Companies
-The final category of ML/AI companies apply these techniques to specific business problems in specific verticals. This is undoubtedly the lion’s share of the actual number of companies being founded, and in many ways represents the true promise of AI — solving actual and immediate problems with new techniques. Here, it’s easier to give companies as examples. The format is always “AI for ________”:
+The final category of ML/AI companies applies these techniques to specific business problems in specific verticals. This is undoubtedly the lion’s share of the actual number of companies being founded, and in many ways represents the true promise of AI --- solving actual and immediate problems with new techniques. Here, it’s easier to give companies as examples. The format is always “AI for ________”:
 
 * [DigitalGenius](https://www.digitalgenius.com/): AI for customer support
 * [Cylance](https://www.cylance.com/en_us/home.html): AI for cyber threat prevention
@@ -58,7 +58,8 @@ The upper axis represents the ROI timeline for customers, while the lower axis s
 
 * _Core AI_: a significant investment that will likely take time to pay off, but can add benefit to almost any sector. Will generally be used by data scientists or other engineers who are deeply technical.
 * _Application AI_: a medium term investment that can prove useful soon but will take some time to integrate into business processes. Relevant to multiple parts of a business and used by both technical and non-technical staff.
-* _Industry AI_: an investment that can pay dividends almost immediately, but is going to only solve one specific type of problem. Will be used mostly (after set-up) by non-technical staff (sales, marketing, etc.).
+* _Industry AI_: an investment that can pay dividends almost immediately, but is going to only solve one specific type of problem. Will be used mostly (after setup) by non-technical staff (sales, marketing, etc.).
+
 These categorizations are generalized, so there are definitely exceptions (Core AI that is quick to deploy, etc.).
 
 -----
