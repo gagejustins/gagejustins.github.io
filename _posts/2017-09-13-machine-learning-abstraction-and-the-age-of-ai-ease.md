@@ -55,7 +55,7 @@ Modules like _[Scikit-Learn](http://scikit-learn.org/stable/)_ and Google’s _[
 Using these packages requires a bunch of data cleaning and customization, so it’s not as simple as a service like Clarifai, but it’s free and more flexible. You can achieve non-trivial accuracy using these algorithms out of the box, assuming you properly adjust for overfitting and tinker with the right parameters. It’s no surprise that _[cluster](https://www.rdocumentation.org/packages/cluster/versions/2.0.5?)_ was one of the [5 most downloaded R packages in 2016](https://www.datacamp.com/community/blog/the-5-most-downloaded-r-packages#gs.XzNDBvk). Most major Python frameworks for Machine Learning have seen [significant usage growth too](http://redmonk.com/fryan/2016/06/06/a-look-at-popular-machine-learning-frameworks/):
 
 <br />
-<img src="/assets/images/abstraction/abs3.png" alt="Stack Overflow Questions" width="80%">
+<img src="/assets/images/abstraction/abs3.png" alt="Stack Overflow Questions" width="55%">
 <br />
 
 The number of Stack Overflow questions on a topic is generally viewed as a rough proxy for adoption and usage. Ironically, this graph about Python package usage looks like it was generated using ggplot2, an R package.
@@ -65,7 +65,7 @@ This growth is a key piece in the abstraction story. As more and more developers
 <img src="/assets/images/abstraction/abs4.png" alt="Stack Overflow Questions" width="40%">
 <br />
 
-Wes is the author of the Pandas package, as well as a number of other notable data science frameworks and resources.
+(Wes is the author of the Pandas package, as well as a number of other notable data science frameworks and resources.)
 
 Deploying and scaling up these processes are complex and beyond the scope of this section, but the conclusion is clear: It’s just much easier than it used to be to write and use Machine Learning models.
 
