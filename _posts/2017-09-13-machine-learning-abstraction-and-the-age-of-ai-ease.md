@@ -19,11 +19,9 @@ Abstraction is a trend across the entire technology landscape (e.x. Squarespace,
 
 It’s almost expected that good products will have some sort of AI under the hood today, but it also has never been easier to get AI up and running. The technical expectations, like model accuracy and speed, are high — but getting there is becoming increasingly accessible.
 
-Put differently, the [supposed shortage of Machine Learning Engineers](https://www.forbes.com/sites/forbestechcouncil/2017/06/26/machine-learning-is-creating-a-demand-for-new-skills/#51afd397ae2a) doesn’t seem to have slowed the proliferation of companies using AI.
+_Put differently, the [supposed shortage of Machine Learning Engineers](https://www.forbes.com/sites/forbestechcouncil/2017/06/26/machine-learning-is-creating-a-demand-for-new-skills/#51afd397ae2a) doesn’t seem to have slowed the proliferation of companies using AI._
 
-As I wrote a while back in [a post on the topic](/blog/2017/09/06/different-types-of-ai-companies), there are 3 different types of AI companies. Core AI companies improve the AI pipeline, Application AI companies help with a specific task like text or images, and Industry AI companies apply AI to specific verticals like customer service or cyber.
-
-While Core AI companies and Application AI companies innovate in using novel machine learning methods or simplification and thus need to get into the nitty gritty of the stuff, Industry AI companies are unique in that, well, they don’t.
+As I wrote a while back in [a post on the topic](/blog/2017/09/06/different-types-of-ai-companies), there are 3 different types of AI companies. Core AI companies improve the AI pipeline, Application AI companies help with a specific task like text or images, and Industry AI companies apply AI to specific verticals like customer service or cyber. While Core AI companies and Application AI companies innovate in using novel machine learning methods or simplification and thus need to get into the nitty gritty of the stuff, Industry AI companies are unique in that, well, they don’t.
 
 The Open Neural Network Exchange, [jointly announced by Facebook and Microsoft](https://techcrunch.com/2017/09/07/facebook-and-microsoft-collaborate-to-simplify-conversions-from-pytorch-to-caffe2/), is a good example for this melding of research and product. Curiously, as research burrows into more and more complex types of AI algorithms, creating working ones on the production side is, in many ways, getting easier.
 
