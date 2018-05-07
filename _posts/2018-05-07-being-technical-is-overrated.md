@@ -88,7 +88,3 @@ Personally, I find the most utility in my Data Science background as a guide for
 Product manager job listings usually require some sort of programming experience: not because they’re expecting you to write code, but because to interact with and manage engineers requires an understanding of what they do and how they do it. But being an engineer for 2 years after college isn’t going to give you razor-sharp estimates on product build times. Engineering is a mindset, and you might just be able to build that mindset without editing someone else’s code at a bank for 2 years.
 
 In the end, having experience writing code is most valuable as a conceptual undertaking – it gives you the knowledge of what code is, and what realistically can be done by whom. If we start defining technical by outcomes like these instead of your practical ability to scan Stack Overflow, we might just understand personal dynamics better.
-
------
-
-_@ me to continue the discussion on twitter or email (below)._
