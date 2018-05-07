@@ -63,7 +63,7 @@ Plenty of great CEOs can’t write good code or any code at all. They find a gre
 
 # A More Useful Definition of Technical – A Mindset and Practical Skill
 
-All of this being said, being technical is obviously crucial to a complete operation. You need engineers to build software products and maintain them. A company full of salespeople isn’t a company (it’s a bank). But I think where being technical really starts to give you an edge is specifically when you’re not technical. My view of technicality is that it’s augmentative – it’s can give you an edge and a boost at roles where it’s not typically appreciated.
+All of this being said, being technical is obviously crucial to a complete operation. You need engineers to build software products and maintain them. A company full of salespeople isn’t a company (it’s a bank). But I think where being technical really starts to give you an edge is specifically when you’re not technical. My view of technicality is that it’s augmentative – it can give you an edge and a boost at roles where it’s not typically appreciated.
 
 Which of these people would you rather hire?
 
