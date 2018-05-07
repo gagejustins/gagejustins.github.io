@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "You should probably care less about being technical"
-author: "justin gage"
 date: 2018-05-07
 ---
 
