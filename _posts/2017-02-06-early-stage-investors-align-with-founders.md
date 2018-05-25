@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How different stages of investors align with founders: do early stage VCs have an advantage?" 
+title: "How different stages of investors align with founders" 
 date: 2017-02-06
 ---
 
@@ -15,7 +15,8 @@ In reality, of course, both of these narratives are true: different funds operat
 
 Pretend, for a minute, that you and I just founded a company that operates in the Bot space, and we sell to large companies (thanks for joining such an inexperienced dude). We’ve spent a while developing a (great) core product, have a few paying pilot customers, and we just raised our seed round from Seed Ventures. Things really ramp up, and a year and 10 big enterprise contracts later, we raise our Series A from A Ventures. A while later, we get acquired by Salesforce and buy a yacht together. Looking back at our long and arduous journey to fame, I’ll argue that the partner at Seed Ventures is more closely aligned with us than the partner at A Ventures for two key reasons. I’m also presenting the scenario as a story rather than a series of charts and cold numbers (many other articles on this topic), because I think it communicates the message more effectively.
 
-# 1) Fund sizes impact when investors are looking to exit.
+# 1) Fund sizes impact when investors are looking to exit
+
 Although this isn’t strictly true, seed funds are generally way smaller in size than funds focused on Series A and later. To use two well known examples, Charlie O'Donnell at Brooklyn Bridge Ventures manages $23M across two funds, while the partners over at FirstMark are [dealing with a half of a billion dollars](http://firstmarkcap.com/firstmark-iv/). For our example, we’ll say that a Seed investor called Seed Ventures is investing out of a $20M fund, and Series A investor named A Ventures is writing checks from a $100M fund. Now let’s get down to it.
 
 Our partner at Seed Ventures will generally put in around $500K for 20% of a company, and that’s exactly the deal we cut with him. Our partner at A Ventures, on the other hand, usually puts in $5M for 20% of a company, and that’s exactly the deal we cut with her. How do these dollar amounts and ownership stakes impact exit scenarios? We’ll illustrate with our offer from Salesforce. Let’s say 3 months after A Ventures puts in their money, we get our offer from Salesforce: it’s for $50M. We’ll also assume that:
@@ -33,7 +34,8 @@ In fact, there’s a pattern here — the bigger your venture fund is, the b
 
 Will A Ventures tell us not to sell and to hold out? Maybe, and maybe not. In today’s climate, probably not. But the key point is obvious — when it comes to exits, the fund sizes and initial investment amounts of seed stage investors align them much more closely with founders than Series A funds. This is an extrinsically motivated argument, but there’s something deeper at play too.
 
-# 2) Earlier stage investors are working with and helping founders at more critical and memorable stages.
+# 2) Earlier stage investors are working with and helping founders at more critical and memorable stages
+
 Growing and scaling businesses is [a really hard thing](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205), and the challenges you face rapidly change as you grow — figuring out who to hire and what to sell are persistent problems, but they change in nature over time. Yet, while the whole business life cycle is challenging, the hurdles you face in the earliest stages of creating your business are often the most memorable and significant. And it’s then when your early investors help you the most.
 
 Thinking back to our now exited company, the issues we dealt with when we started were fundamental: how do we create a product? Who should we sell it to? What’s our vision? Like I said, these problems are recurring — but the first time you deal with them is the most formative and arguably the most critical. Seed Ventures was there for us then, when we were still thinking out the core tenets of what we were selling. They were our friends of course, but they were also our partners in building out our initial strategy. Seed stage investors often play the role of soundboard, and most importantly, as a friend. 
@@ -41,6 +43,7 @@ Thinking back to our now exited company, the issues we dealt with when we starte
 To be clear, Series A investors can provide invaluable help too, and companies are far from figured out by the time they raise more money. Series A investors are also soundboards and friends, and help in other ways that Seed investors often can’t. Yet, the fact that they’re late to the party in many ways has to impact the VC-founder relationship. I’d imagine that the position of the Seed investor — friend and early compatriot––is something that the Series A investor, in general, has a harder time achieving.
 
 # Don’t get angry — I’m not talking about you
+
 Of course, everything I‘m saying is generalized — there are many Series A funds who are more aligned with their founders than certain Seed funds. Many Series A funds wouldn’t dream of telling their founders to reject a lucrative acquisition offer just because it would lead to a subpar outcome. I can’t imagine Mark Suster doing this in a million years. And plenty of times, Seed investors add way less to the company than Series A investors do.
 
 But overall, these principles should hold. To the degree that fund structure and economics are immutable, and businesses continue to grow exponentially, Seed investors are in a naturally more favorable position to be aligned with founders. As [Bryce Roberts](https://twitter.com/bryce) at Indie.vc and the folks over at [Founder Collective](http://www.foundercollective.com/) have taught me (after many Twitter spats), being aligned with and helping out our founders is something we should all strive for, regardless of stage.

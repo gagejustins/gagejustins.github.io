@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Machine learning abstraction and the age of AI ease" 
+title: "Machine Learning abstraction and the age of AI ease" 
 date: 2017-09-13
 ---
-
 
 ## New tools are making it easier than ever to get working AI up and running
 

@@ -35,6 +35,8 @@ This distinction is silly. What about being able to write code makes you technic
 
 (The answer is obviously that you can practically create things. But more on that later.)
 
+-----
+
 # Writing code for a living is rarely a long term career path that technical people follow
 
 Very few people write code for their entire careers, because:
@@ -51,6 +53,8 @@ Starting salaries for technical people are usually much higher than, well, anyth
 
 The trajectory for non-technical people is usually much more natural. The skills that you learn at each stage of your journey as a product manager are directly relevant to your next career steps. Moving up in product will always require learning new skills, but never totally ignoring the type of work that got you where you are.
 
+-----
+
 # There are far more successful people who aren’t technical than who are technical
 
 Technical people can do many things that non-technical people can’t, and that’s often the source of some of the separation inherent in the term. The implication is that to “get stuff done” you’re eventually going to need to write and use software, and if you can’t do that you’re not on the same level as those who can.
@@ -60,6 +64,8 @@ There’s obviously merit to being able to do your own work (more on this later)
 Finally, think of the iconic companies and CEOs that have defined the technology world over the past few decades. How many of those founders were technical? In your experience, are the most impressive and successful people you know the ones who can code?
 
 Plenty of great CEOs can’t write good code or any code at all. They find a great CTO, because part of what makes them great CEOs in the first place is their ability to understand and recruit great people. Oh, and that’s part of what makes a great CTO too.
+
+-----
 
 # A More Useful Definition of Technical – A Mindset and Practical Skill
 
@@ -80,6 +86,8 @@ The difference between a product manager and a product manager who can write SQL
 Instead of asking if someone can write code, we should be asking whether they have the drive and personality to learn and understand the tools necessary to make them independently successful. Remember that Sketch to a designer is the same as SQL to a product manager: it’s just a tool. The fact that one of them is considered “coding” and one is irrelevant.
 
 This new definition of technical is also meaningful because it’s accessible. Technicality as a mindset is accessible because you can learn it – if you’re a designer, spend your nights learning Sketch. If you’re a social media manager, spend your nights understanding what sentiment is. When your technicality is domain specific, you can realistically focus on acquiring it.
+
+-----
 
 # Technicality as a Mindset
 
