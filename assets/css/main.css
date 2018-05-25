@@ -79,6 +79,9 @@ footer ul a.linkedinLink:hover {
     color: #0077B5;
 }
 
+.post p, ul, ol {
+    font-family: roboto, sans-serif;
+}
 
 .post a {
     text-decoration: none;
@@ -118,6 +121,10 @@ body.cv {
 
 ul.cv, ol.cv li {
     font-size: 1em;
+}
+
+ul.projects {
+    text-decoration: underline;
 }
 
 h4.about {
