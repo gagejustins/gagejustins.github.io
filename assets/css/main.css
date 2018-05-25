@@ -1,0 +1,161 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    font-family: Futura;
+    /*font-family: 'Roboto Mono', monospace;*/
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+p, ul, ol {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+    color: red;
+}
+
+nav ul {
+    font-family: Futura, sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-style: italic;
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2, h3 {
+    font-family: Futura, sans-serif;
+    /*font-family:'Playfair Display', serif;*/
+    color: red;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+footer ul {
+    font-family: Futura, sans-serif;
+    /*font-family:'Playfair Display', 'Serif';*/
+    padding: 0px;
+    list-style: none;
+    /*font-style: italic;*/
+}
+
+ul.redlink a {
+    color: red;
+}
+
+/*Site specific link highlights*/
+footer ul a.emailLink:hover, a.githubLink:hover {
+    color: black;
+}
+footer ul a.twitterLink:hover {
+    color: #00aced;
+}
+footer ul a.appleLink:hover {
+    color: #FF375D;
+}
+footer ul a.redditLink:hover {
+    color: #ff4500;
+}
+footer ul a.linkedinLink:hover {
+    color: #0077B5;
+}
+
+
+.post a {
+    text-decoration: none;
+    color: red;
+    /*color: #999;*/
+}
+
+.post a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.supreme {
+    display: inline;
+    font-family: Futura, sans-serif;
+    font-style: italic;
+    color: white;
+    background-color: red;
+    box-shadow: 10px 0 0 red, -10px 0 0 red;
+    padding: 2px 0px 6px 0px;
+}
+
+/*.post h1 {
+    color: white;
+    background-color: black;
+    padding: 5px 20px 10px 20px;
+}*/
+
+.post h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+body.cv {
+    font-size: 1em;
+    color: red;
+}
+
+ul.cv, ol.cv li {
+    font-size: 1em;
+}
+
+h4.about {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Font size for blog posts
+.post {
+    font-size: .8em;
+}*/
+
+ul.posts {
+    margin: 20px auto 40px;
+}
+
+ul.posts li {
+    list-style: none;
+    font-family: Futura, sans-serif;
+    /*font-family: 'Roboto Mono', monospace;*/
+    font-size: 1em;
+}
+
+/* Styling for social share buttons */
+.share-page {
+    text-align: center;
+    background: $secondary-color;
+    color: $light-color;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacing-unit 0;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
