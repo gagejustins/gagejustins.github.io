@@ -119,8 +119,9 @@ body.cv {
     color: red;
 }
 
-ul.cv, ol.cv li {
+.cv ul, ol, li {
     font-size: 1em;
+    font-family: Futura, sans-serif;
 }
 
 ul.projects {
