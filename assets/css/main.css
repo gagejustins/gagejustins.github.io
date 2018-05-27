@@ -119,8 +119,8 @@ body.cv {
     color: red;
 }
 
-.cv ul, ol, li {
-    font-size: 1em;
+.cv ul, .cv ol, .cv li {
+    font-size: 1.1em;
     font-family: Futura, sans-serif;
 }
 
