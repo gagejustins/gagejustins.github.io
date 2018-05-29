@@ -87,12 +87,16 @@ function displayData(dataset) {
 				var value = d.properties.value;
 
 				if (value) {
-					/*return color(value);*/
 					return "rgb(" + color(value) + ",0,0)";
 				} else {
-					return "#ccc";
+					//If default dataset
+					if (dataset == "default") {
+						return "black";
+					//If any other dataset
+					} else {
+						return "#ccc";
+					}
 				}
-
 			});
 
 			mapPath.on("mouseover", function(d) {
