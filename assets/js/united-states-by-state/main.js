@@ -111,6 +111,7 @@ function displayData(dataset) {
 				var paragraph = d3.select(".dropdown")
 				.append("p")
 				.text(function() {
+					//Based on the dataset, we'll return different tooltips (formatting in terms of percentages, etc.)
 					if (["manufacturing_output"].includes(dataset)) {
 						return (d.properties.name + ": $" + d.properties.value + "B");
 					} else if (["agriculture_dollars", "household_income"].includes(dataset)) {
@@ -118,6 +119,8 @@ function displayData(dataset) {
 					} else if (["unemployment_rate", "incarceration_rate", 
 						"obesity_rate", "poverty_rate", "religion", "internet_use"].includes(dataset)){
 						return (d.properties.name + ": " + d.properties.value + "%");
+					} else if (dataset=="default"){
+						return (d.properties.name);	
 					} else {
 						return (d.properties.name + ": " + d.properties.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
 					}
