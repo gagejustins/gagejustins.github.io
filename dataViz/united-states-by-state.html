@@ -6,10 +6,28 @@ custom_js:
 ---
 
 <div class="blurb">
-	<h1 class="supreme">What's the best way to understand America?</h1>
-	<p>Different data, all split across states, can reveal different aspects of this unique country.
-  Pick which dataset is informative to you and see how it changes as you move.</p>
+	<h1 class="supreme">This is America</h1>
+	<p>The best way to understand the makeup of this country is data, not narrative. Pick which dataset is informative to you and see how it changes across states.</p>
 
-  <p><i>placeholder for dataset selector</i></p>
+	<div class="dropdown">  
+		<select class="select_box" id="opts">
+			<p>&#9660</p>
+			<option selected="selected" disabled="disabled">Select a dataset</option>
+			<option value="population">Population</option>
+			<option value="median_age">Median Age</option>
+			<option value="religion">Religion</option>
+			<option value="graduation_rate">Graduation Rate</option>
+			<option value="incarceration_rate">Incarceration Rate</option>
+			<option value="household_income">Household Income</option>
+			<option value="poverty_rate">Poverty Rate</option>
+			<option value="internet_use">Internet Usage</option>
+			<option value="manufacturing_output">Manufacturing Output</option>
+			<option value="agriculture_dollars">Agriculture Dollars</option> 
+			<option value="obesity_rate">Obesity Rate</option>
+			<option value="unemployment_rate">Unemployment Rate</option>
+			<option value="overdose_deaths">Overdose Deaths</option>
+		</select>    
+	</div>
+
 </div><!-- /.blurb -->
 
