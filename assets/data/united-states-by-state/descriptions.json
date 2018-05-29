@@ -1,0 +1,16 @@
+{
+	"default": "Select a dataset from the dropdown above, then mouse over any state to highlight and view data values.",
+	"manufacturing_output": "Total manufacturing output in $Billions, 2016. Source: <a href='http://www.nam.org/Data-and-Reports/State-Manufacturing-Data/State-Manufacturing-Data/April-2017/2017-State-Manufacturing-Data-Table/' target='_blank'>National Association of Manufacturers</a>",
+	"unemployment_rate": "Unemployment rate as a percentage of the labor force and defined by place of residence, March 2018. Source: <a href='https://www.bls.gov/web/laus/laumstrk.htm' target='_blank'>Bureau of Labor Statistics</a>",
+	"population": "Total population, 2010. Source: <a href='http://www.ipl.org/div/stateknow/popchart.html' target='_blank'>IPL2</a>",
+	"agriculture_dollars": "Cash receipts by commodity, 2016. Source: <a href='https://data.ers.usda.gov/reports.aspx?ID=17844' target='_blank'>USDA Economic Research Service</a>",
+	"median_age": "Median age from U.S. Census Data, 2014. Source: <a href='https://www.denverpost.com/2015/10/08/chart-compare-the-average-age-in-each-u-s-state-2005-2014/' target='_blank'>The Denver Post</a>",
+	"incarceration_rate": "Rate per 100,000 people of all ages, 2013. Source: <a href='https://en.wikipedia.org/wiki/List_of_U.S._states_by_incarceration_and_correctional_supervision_rate' target='_blank'>Wikipedia</a>",
+	"household_income": "Median household income, 2015. Source: <a href='https://en.wikipedia.org/wiki/List_of_U.S._states_by_income' target='_blank'>Wikipedia</a>",
+	"graduation_rate": "Share of high school students that graduate within 4 years. Source: <a href='https://www.edweek.org/ew/section/multimedia/data-us-graduation-rates-by-state-and.html' target='_blank'>EdWeek</a>",
+	"overdose_deaths": "Number of age adjusted deaths per 100,000 in the population. Source: <a href='https://www.cdc.gov/nchs/pressroom/sosmap/drug_poisoning_mortality/drug_poisoning.htm' target='_blank'>Centers for Disease Prevention</a>",
+	"obesity_rate": "Self reported obesity, 2016. Source: <a href='https://www.cdc.gov/obesity/data/prevalence-maps.html' target='_blank'>Centers for Disease Control and Prevention</a>",
+	"poverty_rate": "Adjusted for cost of living, 2014. Source: <a href='https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate' target='_blank'>Wikipedia</a>",
+	"religion": "Percentage of adults stating that religion is 'very important' or 'somewhat important' in 2014. Source: <a href='http://www.pewforum.org/religious-landscape-study/state/alabama/#importance-of-religion-by-state' target='_blank'>Pew Research Center</a>",
+	"internet_use": "Internet usage among ages 3+ in any location, July 2015. Note: these figures have a 2-3 percentage point +/-. Source: <a href='https://www.ntia.doc.gov/data/digital-nation-data-explorer#sel=internetUser&disp=map' target='_blank'>NTIA</a>"
+}
