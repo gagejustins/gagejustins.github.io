@@ -4,7 +4,7 @@ var h = 650;
 console.log("d3 executed!")
 
 //Create variable for updating dataset
-var newData = "population"
+var newData;
 
 var svg = d3.select("body")
             .append("svg")
@@ -183,6 +183,10 @@ function displayInformation(dataset) {
 
 }
 
+//Load initial data and description
+displayData("default");
+displayInformation("default");
+
 // handle on click event
 d3.select('#opts')
   .on('change', function() {
@@ -190,10 +194,6 @@ d3.select('#opts')
     displayInformation(newData);
     displayData(newData);
 });
-
-//Load initial data and description
-displayData(newData);
-displayInformation("default");
 
 
 
