@@ -1,61 +1,10 @@
-var w = 1200;
-var h = 600;
-
-var dataset = {
-hi:10,
-ak:20,
-fl:30,
-nh:40,
-mi:50,
-vt:10,
-me:20,
-ri:30,
-ny:40,
-pa:50,
-nj:0,
-de:10,
-md:20,
-va:30,
-wv:40,
-oh:50,
-'in':0,
-il:10,
-ct:20,
-wi:30,
-nc:40,
-dc:50,
-ma:0,
-tn:10,
-ar:20,
-mo:30,
-ga:40,
-sc:50,
-ky:0,
-al:10,
-la:20,
-ms:30,
-ia:40,
-mn:50,
-ok:0,
-tx:10,
-nm:20,
-ks:30,
-ne:40,
-sd:50,
-nd:0,
-wy:10,
-mt:20,
-co:30,
-id:40,
-ut:50,
-az:0,
-nv:10,
-or:20,
-wa:30,
-ca:40
-}
+var w = 1100;
+var h = 650;
 
 console.log("d3 executed!")
+
+//Create variable for updating dataset
+var newData = "population"
 
 var svg = d3.select("body")
             .append("svg")
@@ -64,81 +13,180 @@ var svg = d3.select("body")
 
 //Define map projection and resizing
 var projection = d3.geoAlbersUsa()
-.translate([w/2, h/2])
-.scale([1300]);
+.translate([w/2.5, h/2.2])
+.scale([1100]);
 
 //Define path generator, using the Albers USA projection
 var path = d3.geoPath()
 .projection(projection); 
 
-//Define color scale
-var color = d3.scaleQuantize()
-.range(["#fee5d9", "#fcae91",
-                   "#fb6a4a", "#de2d26", "#a50f15"]);
+var color = d3.scaleLinear()
+.range([0,255])
 
-//Load agriculture data
-d3.csv("/assets/data/united-states-by-state/us-ag-productivity.csv", function(data) {
+var tooltip = d3.select("body").append("div") 
+.attr("class", "tooltip")       
+.style("opacity", 0);
 
-	//Set domain for color scale
-	color.domain([
-		d3.min(data, function(d) { return d.value; }),
-		d3.max(data, function(d) { return d.value; })
-	])
+//Display data function
+function displayData(dataset) {
 
-	//Load in GeoJSON data
-	d3.json("/assets/js/united-states-by-state/us-states.json", function(json) {
+	console.log("displayData executed on " + dataset);
 
-		for (var i = 0; i < data.length; i++) {
+	d3.csv("/assets/data/united-states-by-state/states-data.csv", function(data) {
 
-			//Grab a state name
-			var dataState = data[i].state;
+		//Set domain for color scale
+		color.domain([
+			d3.min(data, function(d) { return parseFloat(d[dataset]); }),
+			d3.max(data, function(d) { return parseFloat(d[dataset]); })
+		]);
 
-			//Grab a data value, and convert from string to float
-			var dataValue = parseFloat(data[i].value);
+		//Load in GeoJSON data
+		d3.json("/assets/js/united-states-by-state/us-states.json", function(json) {
 
-			//Find the corresponding state inside the GeoJSON
-			for (var j = 0; j < json.features.length; j++) {
+			for (var i = 0; i < data.length; i++) {
 
-				//Grab a GeoJSON state name
-				var jsonState = json.features[j].properties.name;
+				//Grab a state name
+				var dataState = data[i].name;
 
-				//If the state name in our data is the same as the GeoJSON state name
-				if (dataState == jsonState) {
+				//Grab data values, and convert from string to float
+				var dataValue = parseFloat(data[i][dataset]);
 
-					//Copy the data value into the JSON
-					json.features[j].properties.value = dataValue;
+				//Find the corresponding state inside the GeoJSON
+				for (var j = 0; j < json.features.length; j++) {
 
-					//Stop grabbing json state names
-					break;
+					//Grab a GeoJSON state name
+					var jsonState = json.features[j].properties.name;
+
+					//If the state name in our data is the same as the GeoJSON state name
+					if (dataState == jsonState) {
+
+						//Copy the data value into the JSON
+						json.features[j].properties.value = dataValue;
+
+						//Stop grabbing json state names
+						break;
+					}
 				}
+
 			}
-		}
 
-		//Bind data and create one path per GeoJSON feature
-		svg.selectAll("path")
-		.data(json.features)
-		.enter()
-		.append("path")
-		.attr("d", path)
-		.style("fill", function(d) {
+			//Bind data and create one path per GeoJSON feature
+			mapPath = svg.selectAll("path")
+			.data(json.features)
 
-			//Get data value
-			var value = d.properties.value
+			mapPath.enter()
+			.append("path")
+			.attr("d", path);
 
-			if (value) {
-				return color(value);
-			} else {
-				return "#ccc";
-			}
+			//Fill states with color conditional on data value
+			mapPath.transition()
+			.duration(900)
+			.style("fill", function(d) {
+
+				//Get data value
+				var value = d.properties.value;
+
+				if (value) {
+					/*return color(value);*/
+					return "rgb(" + color(value) + ",0,0)";
+				} else {
+					return "#ccc";
+				}
+
+			});
+
+			mapPath.on("mouseover", function(d) {
+
+				//Inject data value into paragraph
+
+				//Remove old text
+				d3.select(".dropdown #value-label")
+				.remove()
+
+				//Display new text
+				var paragraph = d3.select(".dropdown")
+				.append("p")
+				.text(function() {
+					if (["manufacturing_output"].includes(dataset)) {
+						return (d.properties.name + ": $" + d.properties.value + "B");
+					} else if (["agriculture_dollars", "household_income"].includes(dataset)) {
+						return (d.properties.name + ": $" + d.properties.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+					} else if (["unemployment_rate", "incarceration_rate", 
+						"obesity_rate", "poverty_rate", "religion", "internet_use"].includes(dataset)){
+						return (d.properties.name + ": " + d.properties.value + "%");
+					} else {
+						return (d.properties.name + ": " + d.properties.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+					}
+				})
+				.attr("id", "value-label")
+				.classed("supreme", true)
+				.style("font-size", "1em")
+				.style("display", "inline")
+				.style("margin-left", "30px");
+
+				//Highlight current state
+				d3.select(this)
+				.transition()
+				.duration(300)
+				.style("opacity", .6);
+
+			})
+			.on("mouseout", function(d) {
+
+				//Remove old text
+				d3.select(".dropdown #value-label")
+				.remove()
+
+				//Return state to original opacity
+				d3.select(this)
+				.transition()
+				.duration(350)
+				.style("opacity", 1);
+				
+			});
 
 		});
 
-	})
+	});
 
-})
+};
 
+//Display text function
+function displayInformation(dataset) {
 
+	//Load in dataset:description json file
+	d3.json("/assets/data/united-states-by-state/descriptions.json", function(json) {
 
+		var description = json[dataset];
+
+		//Remove old text
+		d3.select(".blurb #dataset-description")
+		.remove()
+
+		//Display new text
+		var paragraph = d3.select(".blurb")
+		.append("p")
+		.html(description)
+		.attr("id", "dataset-description")
+		.style("font-size", "1em")
+		.style("font-family", "Futura, sans-serif")
+		.style("font-style", "italic");
+
+	}); 
+
+}
+
+// handle on click event
+d3.select('#opts')
+  .on('change', function() {
+    newData = d3.select(this).property('value');
+    displayInformation(newData);
+    displayData(newData);
+});
+
+//Load initial data and description
+displayData(newData);
+displayInformation("default");
 
 
 
