@@ -1,3 +1,12 @@
+//Alerts for browser compatibility
+if (navigator.vendor ==  "Apple Computer, Inc.") {
+	alert("This visualization doesn't work very well in Safari. Try using Chrome if you can!");
+}
+
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+    alert("This visualization doesn't work very well on mobile. Try using Chrome on Desktop if you can!")
+}
+
 var w = 1100;
 var h = 650;
 
