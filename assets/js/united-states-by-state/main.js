@@ -125,7 +125,7 @@ function displayData(dataset) {
 						return (d.properties.name + ": $" + d.properties.value + "B");
 					} else if (["agriculture_dollars", "household_income"].includes(dataset)) {
 						return (d.properties.name + ": $" + d.properties.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
-					} else if (["unemployment_rate", "incarceration_rate", 
+					} else if (["unemployment_rate", "incarceration_rate", "graduation_rate", 
 						"obesity_rate", "poverty_rate", "religion", "internet_use"].includes(dataset)){
 						return (d.properties.name + ": " + d.properties.value + "%");
 					} else if (dataset=="default"){
