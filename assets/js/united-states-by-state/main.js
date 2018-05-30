@@ -1,5 +1,5 @@
 //Alerts for browser compatibility
-if (navigator.vendor ==  "Apple Computer, Inc.") {
+if (navigator.vendor ==  "Apple Computer, Inc." && !/Mobi|Android/i.test(navigator.userAgent)) {
 	alert("This visualization doesn't work very well in Safari. Try using Chrome if you can!");
 }
 
