@@ -1,11 +1,30 @@
 ---
 layout: default
 title: Posts (data and otherwise)
+custom_js:
+- shrinking-navbar.js
 ---
-	<h1 class="supreme">{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> | <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+<div class="sneakers" style="padding-top: 10px; padding-bottom: 25px;">
+	<img src="/assets/images/sneakers/strandWalnut.jpg" width="20%" height="20%">
+	<img src="/assets/images/sneakers/strandSuede.jpg" width="19%" height="20%">
+	<img src="/assets/images/sneakers/fifthBlue.jpg" width="20%" height="20%">
+	<img src="/assets/images/sneakers/zerograndSuede.png" width="21%" height="20%">
+</div>
+
+{% for post in site.posts %}
+<div class="row" style="padding-top: 30px;">
+	<div class="col-md-11">
+		<div class="card flex-md-row box-shadow h-md-200">
+			<div class="card-body d-flex flex-column align-items-start">
+				<strong class="d-inline-block mb-2 text-primary">{{ post.tag }}</strong>
+				<h3 class="mb-0"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+				<div class="mb-1 text-muted">{{ post.date | date_to_string }}</div>
+				<p class="card-text mb-auto">{{ post.description }}</p>
+			</div>
+			<img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x200?theme=thumb" alt="Thumbnail [200x200]" style="width: 200px; height: 200px;" src={{ post.thumbnail }} data-holder-rendered="true">
+		</div>
+	</div>
+</div>
+{% endfor %}
+

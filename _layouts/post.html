@@ -1,10 +1,43 @@
----
-layout: default
----
-<h1 class="supreme">{{ page.title }}</h1>
-<p class="meta"><i>{{ page.date | date_to_string }}</i></p>
-
-<div class="post">
-  {{ content }}
-  {% include share-page.html %}
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		{% include nav.html %}
+		{% include head.html %}
+	</head>
+	<body>
+		<div class="post">
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<h1 class="supreme">{{ page.title }}</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 offset-md-2 date">
+					<p class="meta" style="padding-top: 20px;"><i>{{ page.date | date_to_string }}</i></p>
+				</div>
+			</div>
+			</div>
+			<!-- begin content -->
+			<div class="row text-center">
+				<div class="col-md-5">
+					{{ content }}
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-5">
+					{% include share-page.html %}
+				</div>
+			</div>
+			{% if jekyll.environment == 'production' %}
+				{% include analytics.html %}
+			{% endif %}
+			<!-- include shrinking navbar -->
+			<script type="text/javascript" src="/assets/js/shrinking-navbar.js"></script>
+			{% if page.custom_js %}
+				{% for js_file in page.custom_js %}
+					<script  type="text/javascript" src="/assets/js/{{ js_file }}"></script>
+	    		{% endfor %}
+			{% endif %}
+		</div>
+	</body>
+</html>

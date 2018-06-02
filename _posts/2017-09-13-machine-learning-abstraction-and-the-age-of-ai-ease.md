@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Machine Learning abstraction and the age of AI ease" 
+tag: AI, Software
+description: New tools are making it easier than ever to get AI up and running.
+thumbnail: /assets/images/abstraction/abs5.png
 date: 2017-09-13
 ---
-
-## New tools are making it easier than ever to get working AI up and running
 
 _Note: all of the following applies to creating and training AI and Machine Learning models. Deploying those models at scale is a much different and more difficult challenge, and will be the subject of a follow-up post._
 

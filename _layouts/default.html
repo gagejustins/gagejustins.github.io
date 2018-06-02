@@ -1,35 +1,37 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<meta property="og:image" content="/assets/images/justin.jpg">
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-			<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-			<!-- load Javascript files -->
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">home</a></li>
-		        	<li><a href="/work">work</a></li>
-					<li><a href="/dataViz">dataViz</a></li>
-	        		<li><a href="/writing">writing</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-
-			{{ content }}
-
-			</div><!-- /.container -->
+<html>
+	<head>
+		{% include nav.html %}
+		{% include head.html %}
+	</head>
+	<body>
+		<div>
+			<div class="container-fluid">
+				<div class="row" style="padding-bottom: 35px;">
+					<div class="col-md-8 offset-md-2">
+						<h1 class="supreme">{{ page.title }}</h1>
+					</div>
+				</div>
+				<!-- begin content -->
+				<div class="row" style="padding-bottom: 25px;">
+					<div class="col-md-8 offset-md-2">
+						{{ content }}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						{% include footer.html %}
+					</div>
+				</div>
+			</div>
 			{% if jekyll.environment == 'production' %}
-    	{% include analytics.html %}
-    	{% endif %}
-		{% if page.custom_js %}
-			{% for js_file in page.custom_js %}
-			<script  type="text/javascript" src="/assets/js/{{ js_file }}"></script>
-	    	{% endfor %}
-		{% endif %}
-		</body>
-	</html>
+				{% include analytics.html %}
+			{% endif %}
+			{% if page.custom_js %}
+				{% for js_file in page.custom_js %}
+					<script  type="text/javascript" src="/assets/js/{{ js_file }}"></script>
+	    		{% endfor %}
+			{% endif %}
+		</div>
+	</body>
+</html>

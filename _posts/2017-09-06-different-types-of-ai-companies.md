@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Making sense of the different types of AI companies" 
+tag: AI, Software
+description: It's easier to understand AI with more precise terminology.
+thumbnail: /assets/images/camo5.jpg
 date: 2017-09-06
 ---
 

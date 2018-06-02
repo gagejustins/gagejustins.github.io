@@ -7,7 +7,7 @@ if (/Mobi|Android/i.test(navigator.userAgent)) {
     alert("This visualization doesn't work very well on mobile. Try using Chrome on Desktop if you can!")
 }
 
-var w = 1100;
+var w = 1000;
 var h = 650;
 
 console.log("d3 executed!")
@@ -15,15 +15,15 @@ console.log("d3 executed!")
 //Create variable for updating dataset
 var newData;
 
-var svg = d3.select("body")
+var svg = d3.select("body .viz-row")
             .append("svg")
               .attr("width", w)
               .attr("height", h);
 
 //Define map projection and resizing
 var projection = d3.geoAlbersUsa()
-.translate([w/2.5, h/2.2])
-.scale([1100]);
+.translate([w/2, h/2.35])
+.scale([1000]);
 
 //Define path generator, using the Albers USA projection
 var path = d3.geoPath()
@@ -32,7 +32,7 @@ var path = d3.geoPath()
 var color = d3.scaleLinear()
 .range([0,255])
 
-var tooltip = d3.select("body").append("div") 
+var tooltip = d3.select("body .viz-row").append("div") 
 .attr("class", "tooltip")       
 .style("opacity", 0);
 
@@ -113,11 +113,11 @@ function displayData(dataset) {
 				//Inject data value into paragraph
 
 				//Remove old text
-				d3.select(".dropdown #value-label")
+				d3.select(".blurb-row .dropdown #value-label")
 				.remove()
 
 				//Display new text
-				var paragraph = d3.select(".dropdown")
+				var paragraph = d3.select(".blurb-row .dropdown")
 				.append("p")
 				.text(function() {
 					//Based on the dataset, we'll return different tooltips (formatting in terms of percentages, etc.)
@@ -176,11 +176,11 @@ function displayInformation(dataset) {
 		var description = json[dataset];
 
 		//Remove old text
-		d3.select(".blurb #dataset-description")
+		d3.select("#dataset-description")
 		.remove()
 
 		//Display new text
-		var paragraph = d3.select(".blurb")
+		var paragraph = d3.select("body .blurb-row")
 		.append("p")
 		.html(description)
 		.attr("id", "dataset-description")
