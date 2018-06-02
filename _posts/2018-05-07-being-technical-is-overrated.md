@@ -45,7 +45,7 @@ Very few people write code for their entire careers, because:
 Writing code or building bridges (literal ones, you crazy networkers) is not a career: it’s a job.
 
 <br />
-<img src="/assets/images/technical/technical1.png" alt="Salary Over Time For Technical and Non-Technical People" width="60%"/>
+<img src="/assets/images/technical/technical1.png" alt="Salary Over Time For Technical and Non-Technical People" width="80%"/>
 <br />
 
 Starting salaries for technical people are usually much higher than, well, anything else. But at some point you hit a wall, because writing code is only so valuable. To hit that next meaningful salary increase, you need to diversify your skillset. That can end up meaning you become an Architect, but usually means becoming a manager. And a great manager is a great manager, not a great developer.
