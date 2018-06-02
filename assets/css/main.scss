@@ -1,0 +1,333 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "syntax-highlighting";
+@import "bootstrap-4-jekyll/bootstrap-4-jekyll";
+@import "bootstrap_customization";
+ 
+body {
+    padding-top: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #696969;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+p, ul, ol {
+    font-family: Assistant, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+    padding-bottom: 70px;
+    padding-top: 62px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    /*font-family:'Playfair Display', serif;*/
+    color: red;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    padding-bottom: 50px;
+}
+
+footer ul {
+    font-family: Futura, sans-serif;
+    /*font-family:'Playfair Display', 'Serif';*/
+    padding: 0px;
+    padding-top: 10px;
+    list-style: none;
+    /*font-style: italic;*/
+}
+
+footer li {
+    display: inline;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.row.text-center > div {
+    float: none;
+    margin: auto;
+    text-align: left;
+}
+
+.navbar {
+    transition: .5s;
+    background-image: url("/assets/images/camo3.jpg");
+    margin-bottom: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar.compressed {
+    transition: .5s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .8em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    width: 6%;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar ul li a {
+    font-family: Assistant, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav > li {
+    padding-right: 25px;
+}
+
+#dropdown-item {
+    color: black;
+}
+
+/* Paragraph styling */
+.futura_paragraph p {
+    font-family: Futura, sans-serif;
+}
+
+/* List styling: futura */
+.futura_link_large ul, .futura_link_large ol, .futura_link_large li {
+    font-size: 1.1em;
+    font-family: Futura, sans-serif;
+}
+
+.futura_link_medium ul, .futura_link_medium ol, .futura_link_medium li  {
+    font-size: 1em;
+    font-family: Futura, sans-serif;
+    text-decoration: underline;
+}
+
+/* Supreme styling */
+.supreme {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: red;
+    box-shadow: 10px 0 0 red, -10px 0 0 red;
+    padding: 2px 0px 6px 0px;
+}
+
+.work h2, h4, ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.work h2 {
+    font-family: Assistant, sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.work h4 {
+    font-size: 1.2em;
+}
+
+.work li {
+    font-family: Assistant, sans-serif; 
+}
+
+ul.redlink a {
+    color: red;
+}
+
+/*Site specific link highlights*/
+footer ul a.emailLink:hover, a.githubLink:hover {
+    color: black;
+}
+footer ul a.twitterLink:hover {
+    color: #00aced;
+}
+footer ul a.appleLink:hover {
+    color: #FF375D;
+}
+footer ul a.redditLink:hover {
+    color: #ff4500;
+}
+footer ul a.linkedinLink:hover {
+    color: #0077B5;
+}
+
+.post body {
+    font-family: Assistant, sans-serif;
+}
+
+.post p, ul, ol {
+    font-family: Assistant, serif;
+}
+
+.post a {
+    text-decoration: none;
+    color: red;
+    /*color: #999;*/
+}
+
+.post a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Styling for cards on posts page */
+.card {
+    font-family: Assistant, sans-serif;
+    color: black;
+}
+
+.card a {
+    color: black;
+}
+
+div.card {
+    margin-bottom: 25px;
+}
+
+.card .text-primary {
+    color: red !important;
+}
+
+.date {
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+    font-family: Futura, sans-serif;
+    font-weight: bold;
+}
+
+.visualization body {
+    padding-top: 50px;
+}
+
+body.cv {
+    font-size: 1em;
+    color: red;
+}
+
+ul.projects {
+    text-decoration: underline;
+}
+
+h4.about {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Dropdown for us states dataviz*/
+/* body select.select_box */ 
+body select { 
+    padding: 10px 70px 10px 13px !important; 
+    border: 1px solid #e3e3e3; 
+    border-radius: 3px; 
+    background-color: black; 
+    color: white; 
+    font-size: 12px; 
+    /* this is must */ -webkit-appearance: none; 
+    font-family: Futura, sans-serif;
+} 
+
+.select_box {
+  background-image:
+    linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, white 50%, transparent 50%),
+    linear-gradient(to right, white, white);
+  background-position:
+    calc(100% - 20px) calc(1em + 4px),
+    calc(100% - 15px) calc(1em + 4px),
+    calc(100% - 2.5em) 0.73em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+/*end dropdown styling*/
+
+ul.posts {
+    margin: 20px auto 40px;
+}
+
+ul.posts li {
+    list-style: none;
+    font-family: Futura, sans-serif;
+    /*font-family: 'Roboto Mono', monospace;*/
+    font-size: 1em;
+}
+
+/* Styling for dataset descriptions on visualizations */
+#dataset-description {
+    padding-top: 20px;
+}
+
+/* Styling for tooltips */
+#tooltip {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); 
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: rubik;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* Styling for social share buttons */
+.share-page {
+    text-align: center;
+    color: red;
+    padding: 40px 0px 70px 0px;
+    border-radius: 5px;
+    margin: 1.5 * 5 0;
+}
+
+.share-page a {
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.share-page a:hover {
+    border-bottom: 1px dashed #fff;
+}
