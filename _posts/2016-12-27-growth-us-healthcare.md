@@ -7,7 +7,8 @@ thumbnail: /assets/images/healthcare/healthcare1.png
 date: 2016-12-27
 ---
 
-<img src="/assets/images/healthcare/healthcare1.png" alt="Shkreli comic" width="60%"/>
+<img src="/assets/images/healthcare/healthcare1.png" alt="Shkreli comic" width="60%" style="display: block; margin: auto">
+<br />
 
 Healthcare expenditures are a hot topic right now — partially because of ugly media storms for drug price movement like [Martin Shkreli](http://www.cnbc.com/2016/07/14/accused-fraudster-martin-shkrelis-trial-set-for-june-26.html) and [Epipen](http://fortune.com/2016/09/27/mylan-epipen-heather-bresch/) — but also because of the strange reality that healthcare costs us 17.1% of our GDP a year, as per recent figures. That’s 5% more than other developed countries like Germany, but our life expectancy (if that’s a proper measure of success) lags behind all of these places. It also helps that places like Oscar Health are [marketing this problem hard](https://www.quora.com/session/Mario-Schlosser/1), and arguing that they can solve it. Whatever the reason is, people are starting to pick up on this strange, strange reality.
 
@@ -36,9 +37,8 @@ You’ll also notice the small spike since 2010, which validates the current per
 
 <strong>In summary</strong>: healthcare costs have been growing a lot since the 1950’s, and peaked growth around 1980. This growth has absolutely nothing to do with population growth.
 
------
+# Which parts of healthcare costs are growing the fastest?
 
-<h1>Which parts of healthcare costs are growing the fastest?</h1>
 Steady increase is often driven by extremely high growth in a few elements of a system. Is that going on here? Are there specific parts of healthcare that have been growing much faster than others?
 
 To answer that question, we can take a look at the items with the top 10 growth rates in the system.
@@ -55,9 +55,8 @@ The weird thing is that once you remove CHIP programs from the data set, there i
 
 <strong>In summary</strong>: the growth of healthcare expenditures isn’t being driven by a few high-growth expenses; it’s largely evenly distributed. Everything is costing more.
 
------
+# How do government programs fit into this equation?
 
-<h1>How do government programs fit into this equation?</h1>
 I mentioned that Medicare and Medicaid were curtailed a bit during the Reagan administration, but this doesn’t really do justice to the whole picture. The fact of the matter is that both Medicare and Medicaid have been steadily increasing their share of total healthcare expenditures, while private insurance has been on the decline. Overall, averaged across all years since 1960, private insurance accounts for a little over 50% of insurance expenditures.
 
 <br />
@@ -74,7 +73,6 @@ Leaving aside the initial shaking around when the programs were created, private
 
 <strong>In summary</strong>: government insurance programs grew only slightly faster than private ones from 1960–2015. Total expenditure growth is even across these groups too.
 
------
+# Conclusion
 
-<h1>Conclusion</h1>
 There are a number of solid reasons why these costs have been growing, including increasing procedure costs, more expensive equipment, ill-structured incentives, and the employer provider model. This project doesn’t address any of that, and is just meant to visualize what’s been happening since 1960. I hope it’s helpful! If you have any questions or comments, [email me](mailto:gagejustins@gmail.com) or shout at @jgage718.

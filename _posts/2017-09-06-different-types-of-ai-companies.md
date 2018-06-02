@@ -19,7 +19,6 @@ For example, my friends over at CB Insights put together a [stellar market map](
 
 This is a great resource by CBI, and clearly separates AI companies into segments based on the industries they tackle. But if we take a closer look, these categories don’t really work well together. Auto, Robotics, and Healthcare are industries, but Text Analysis and Vision are applications. And where does Core AI fit into the equation? These categories are very different, and probably shouldn’t be together in a single map. Let’s explore this distinction a bit further.
 
------
 
 # There are three types of AI companies — core, application, and industry
 ## 1. Core AI Companies
@@ -65,7 +64,6 @@ The upper axis represents the ROI timeline for customers, while the lower axis s
 
 These categorizations are generalized, so there are definitely exceptions (Core AI that is quick to deploy, etc.).
 
------
 
 # The Investor’s Perspective
 As an analyst, I try to categorize companies into one of these buckets when I’m engaging in research because they’re all very different investments. Specifically, they sell to different points in the customer’s organization, require different sales cycles, and take different amounts of time and effort to implement (ROI timeline). It’s important to understand which version of all of these characteristics I’ll be dealing with. 

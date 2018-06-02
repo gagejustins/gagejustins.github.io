@@ -29,9 +29,8 @@ But if you look closer, the aggregate value of these internet IPOs didn’t peak
 
 So what we see here is essentially the bubble — even though fewer companies were actually going public at the end of the 90’s, they were raking in way more cash than ever before.
 
------
+# Where were these IPOs happening?
 
-<h1>Where were these IPOs happening?</h1>
 The lion’s share of these IPOs were obviously technology companies. Nasdaq was only founded in 1971, but boy did it ramp up quickly — already by 1983 it was bringing companies public at a volume 40x that of the NYSE. Yet, on the way towards the internet era, Nasdaq was losing share to the NYSE, and fast. The dot-com boom seems to have reversed that trend temporarily.
 
 <br />
@@ -48,9 +47,8 @@ This trend has a lot less to do with the NYSE improving and much more to do with
 
 This is really an incredible, incredible shift — Nasdaq IPOs skyrocket across the entire decade of the 90’s and then come absolutely crashing down when the bubble burst. What a ride.
 
------
+# What changed that drove the most IPOs in market history?
 
-<h1>But what was the fundamental change? What was it about internet companies that drove the most IPOs in market history?</h1>
 Simple: profitability.
 
 As Lewis describes in The New New Thing, the traditional road to an IPO involved business plans, American executives, and initial profitability. The internet era laughed at these things.
@@ -75,8 +73,8 @@ It also shouldn’t be surprising that the peak of VC investment, in terms of sh
 
 The lowest point of profitable companies going public coincides directly with the peak share that VCs have ever had in IPOs. Hm…
 
------
-<h1>So what does this mean for today’s market?</h1>
+#So what does this mean for today’s market?
+
 Perhaps the most interesting part of this graph is what’s been going on over the past decade. The share of yearly IPOs that are VC backed is climbing back towards its peak, and almost reached it last year, in 2015. And at the same time, the share of those companies that are profitable has fallen off the cliff right back to 2000 levels.
 
 In other words, we can summarize that:
