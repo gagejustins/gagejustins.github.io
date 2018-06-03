@@ -6,8 +6,17 @@
 // Some customization of the container class to have a better display in the guide.
 // Don't hesitate to remove it to have a standard Bootstrap behavior
 $container-max-widths: (
+  sm: 740px,
+  md: 840px,
+  lg: 890px,
+  xl: 1020px
+) !default;
+
+
+/* $container-max-widths: (
   sm: 540px,
   md: 640px,
   lg: 690px,
   xl: 720px
 ) !default;
+*/
