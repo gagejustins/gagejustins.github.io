@@ -64,6 +64,11 @@ footer li {
     padding-left: 10px;
 }
 
+.highlighted {
+    filter: drop-shadow(0 0 30px #D66F62);
+    transition: .7s;
+}   
+
 .navbar {
     transition: .5s;
     background-image: url("/assets/images/camo3.jpg");

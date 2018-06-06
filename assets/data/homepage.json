@@ -1,0 +1,41 @@
+[
+	{"name": "chukka", 
+		"type": "Casual", 
+		"brand": "Common Projects", 
+		"description": "Chukka Suede", 
+		"purchased": "June 2017",
+		"comment": "The color of the uppers makes a really cool match with the color and opacity of the sole. There's also a dramatic shape change in the middle of the shoe, from flat to upwards."
+	},
+
+	{"name": "bballlow",
+		"type": "Sneaker",
+		"brand": "Common Projects",
+		"description": "Bball Low White",
+		"purchased": "May 2018",
+		"comment": "This is your classic white sneaker, but with Common Projects materials and a little extra Basketball inspired detailing. Subtle but unique." 
+	},
+
+	{"name": "blazer",
+		"type": "Sneaker",
+		"brand": "Nike",
+		"description": "Blazer Low Pink",
+		"purchased": "December 2017",
+		"comment": "These are a really nice shade of faded pink. I've tweeted about how the European version of the blazer is one of the most underrated shoes out there."
+	},
+
+	{"name": "gats",
+		"type": "Sneaker",
+		"brand": "Maison Margiela",
+		"description": "Paint Splatter GATs",
+		"purchased": "May 2017",
+		"comment": "These are the funkiest shoes I own. There's a multicolor paint splatter on the front, done by the designer. Just edgy enough."
+	},
+
+	{"name": "pharrell",
+		"type": "Sneaker",
+		"brand": "Adidas",
+		"description": "Pharrell Hu Holi Tennis",
+		"purchased": "April 2018",
+		"comment": "Favorite shoe of 2018. Comfortable, slim profile, reasonably priced. This was my second pair already this year."
+	}
+]
