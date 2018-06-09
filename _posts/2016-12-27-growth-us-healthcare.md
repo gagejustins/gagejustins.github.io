@@ -19,13 +19,13 @@ But how did we get here? What grew, how, and when? Luckily, CMS.gov publishes da
 Venture Capitalists like to look for what they call the hockey stick graph, which is exactly the structure that healthcare costs show over the past 50 years.
 
 <br />
-<img src="/assets/images/healthcare/healthcare2.png" alt="Total National Healthcare Expenditures" width="80%"/>
+<img src="/assets/images/healthcare/healthcare2.png" alt="Total National Healthcare Expenditures" width="100%"/>
 <br />
 
 The interesting thing is that this growth isn’t linear; it’s exponential. Growth was moderate until around 1980, and then it took off like a rocket. The really strange thing is that none of this has to do with population growth. Here’s the population added on to the above graph.
 
 <br />
-<img src="/assets/images/healthcare/healthcare3.png" alt="National Healthcare Expenditures and Population" width="80%"/>
+<img src="/assets/images/healthcare/healthcare3.png" alt="National Healthcare Expenditures and Population" width="100%"/>
 <br />
 
 This graph isn’t exactly fair, since they’re on difference scales. Here are the annual growth rates interplayed, and they really look like they have nothing to do with each other.
@@ -44,7 +44,7 @@ Steady increase is often driven by extremely high growth in a few elements of a 
 To answer that question, we can take a look at the items with the top 10 growth rates in the system.
 
 <br />
-<img src="/assets/images/healthcare/healthcare4.png" alt="Top 10 Annualized Growth Rates" width="80%"/>
+<img src="/assets/images/healthcare/healthcare4.png" alt="Top 10 Annualized Growth Rates" width="100%"/>
 <br />
 
 The three items to the left have 30% growth rates that dwarf everything else here. CHIP stands for Child Health Insurance Program, a government initiative introduced and implemented in 1998 that provides low cost insurance to children who’s parents make too much to quality for Medicaid. CHIP is broken down between Federal and State / Local here. Are these our culprits?
@@ -60,13 +60,13 @@ The weird thing is that once you remove CHIP programs from the data set, there i
 I mentioned that Medicare and Medicaid were curtailed a bit during the Reagan administration, but this doesn’t really do justice to the whole picture. The fact of the matter is that both Medicare and Medicaid have been steadily increasing their share of total healthcare expenditures, while private insurance has been on the decline. Overall, averaged across all years since 1960, private insurance accounts for a little over 50% of insurance expenditures.
 
 <br />
-<img src="/assets/images/healthcare/healthcare5.png" alt="Share of Total Expenditures by Insurance Type" width="80%"/>
+<img src="/assets/images/healthcare/healthcare5.png" alt="Share of Total Expenditures by Insurance Type" width="100%"/>
 <br />
 
 Medicare and Medicaid represent 27% and 20% of total healthcare expenditures, respectively. Over time, these shares have slowly but steadily increased.
 
 <br />
-<img src="/assets/images/healthcare/healthcare6.png" alt="Share of Total Expenditures by Insurance Type" width="80%"/>
+<img src="/assets/images/healthcare/healthcare6.png" alt="Share of Total Expenditures by Insurance Type" width="100%"/>
 <br />
 
 Leaving aside the initial shaking around when the programs were created, private insurance as a share of total expenditures has dropped from 56% in 1967 to 47% in 2015. The lion’s share of the difference was eaten by Medicaid, which has grown from 17% in 1967 to 24% in 2015. Medicare has only grown ~2% over the period.
