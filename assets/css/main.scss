@@ -121,8 +121,8 @@ footer li {
 }
 
 .blurred {
-    transition: .8s;
-    filter: blur(.4rem); 
+    transition: 1s;
+    filter: blur(15rem); 
 }
 
 .unblurred {
