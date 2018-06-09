@@ -120,6 +120,27 @@ footer li {
     color: black;
 }
 
+.blurred {
+    transition: 1s;
+    filter: blur(.2rem); 
+}
+
+.hidden {
+    transition: 1s;
+    display: none;
+}
+
+.card-title {
+    font-family: Roboto Mono, serif;
+    font-size: .8em;
+    color: gray;
+}
+
+.card-body p {
+    font-size: .9em;
+    font-family: Roboto Mono, serif;
+}
+
 /* Paragraph styling */
 .futura_paragraph p {
     font-family: Futura, sans-serif;
