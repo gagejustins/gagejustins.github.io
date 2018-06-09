@@ -41,7 +41,6 @@ sneakers.on("mouseover", function() {
 
 	//Blur other sneakers
 	d3.selectAll("body img:not(#" + sneakerName + ")")
-	.classed("unblurred", false)
 	.classed("blurred", true);
 
 
@@ -61,8 +60,7 @@ sneakers.on("mouseover", function() {
 
 	//Remove blur
 	d3.selectAll(".sneakers img")
-	.classed("blurred", false)
-	.classed("unblurred", true);
+	.classed("blurred", false);
 
 });
 

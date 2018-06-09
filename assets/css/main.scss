@@ -123,13 +123,13 @@ footer li {
 .blurred {
     transition: .8s;
     filter: blur(.5rem); 
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .unblurred {
     transition: .5s;
     filter: none;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .hidden {
