@@ -12,11 +12,6 @@ sneakers.on("mouseover", function() {
 	//d3.select(this)
 	//.classed("highlighted", true);
 
-	//Blur other sneakers
-	d3.selectAll("body img:not(#" + sneakerName + ")")
-	.classed("unblurred", false)
-	.classed("blurred", true);
-
 	//Get position of sneaker image
 	var xPos = d3.select(this).property('x');
 	var yPos = d3.select(this).property('y');
@@ -31,7 +26,7 @@ sneakers.on("mouseover", function() {
 	.style("left", function() {
 		//If the selection is the two rightmost sneakers, display the tooltip a bit to the left
 		if (['gats', 'pharrell'].includes(sneakerName)) {
-			return xPos - 250 + "px";
+			return xPos - 240 + "px";
 		} else {
 			return xPos + "px";
 		}
@@ -44,13 +39,14 @@ sneakers.on("mouseover", function() {
 	//Update tooltip information
 	displayTooltips(sneakerName);
 
+	//Blur other sneakers
+	d3.selectAll("body img:not(#" + sneakerName + ")")
+	.classed("unblurred", false)
+	.classed("blurred", true);
+
+
 })
 .on("mouseout", function() {
-
-	//Remove blur
-	d3.selectAll(".sneakers img")
-	.classed("blurred", false)
-	.classed("unblurred", true);
 
 	//Apply the highlighted class
 	//d3.select(this)
@@ -62,6 +58,11 @@ sneakers.on("mouseover", function() {
 
 	d3.select(".sneaker_tooltip")
 	.remove();
+
+	//Remove blur
+	d3.selectAll(".sneakers img")
+	.classed("blurred", false)
+	.classed("unblurred", true);
 
 });
 
