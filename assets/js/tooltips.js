@@ -1,3 +1,7 @@
+$(function () {
+    $('[data-toggle=tooltip]').tooltip();
+  });
+
 var sneakers = d3.selectAll(".sneakers").selectAll("img");
 
 sneakers.on("mouseover", function() {
@@ -10,8 +14,8 @@ sneakers.on("mouseover", function() {
 
 	//Blur other sneakers
 	d3.selectAll("body img:not(#" + sneakerName + ")")
-	.classed("blurred", true)
-	.classed("unblurred", false);
+	.classed("unblurred", false)
+	.classed("blurred", true);
 
 	//Get position of sneaker image
 	var xPos = d3.select(this).property('x');
@@ -24,7 +28,14 @@ sneakers.on("mouseover", function() {
 	//Position sneaker_tooltip div on top right corner of image
 	d3.select(".sneaker_tooltip")
 	.classed("hidden", false)
-	.style("left", xPos + "px")
+	.style("left", function() {
+		//If the selection is the two rightmost sneakers, display the tooltip a bit to the left
+		if (['gats', 'pharrell'].includes(sneakerName)) {
+			return xPos - 250 + "px";
+		} else {
+			return xPos + "px";
+		}
+	})
 	.style("top", yPos - 265 + "px")
 	.style("position", "absolute")
 	.style("width", "1200px")
