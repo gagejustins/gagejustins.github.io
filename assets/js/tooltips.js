@@ -5,12 +5,13 @@ sneakers.on("mouseover", function() {
 	var sneakerName = d3.select(this).property('id')
 	
 	//Apply the highlighted class
-	d3.select(this)
-	.classed("highlighted", true);
+	//d3.select(this)
+	//.classed("highlighted", true);
 
 	//Blur other sneakers
 	d3.selectAll("body img:not(#" + sneakerName + ")")
-	.classed("blurred", true);
+	.classed("blurred", true)
+	.classed("unblurred", false);
 
 	//Get position of sneaker image
 	var xPos = d3.select(this).property('x');
@@ -37,11 +38,12 @@ sneakers.on("mouseover", function() {
 
 	//Remove blur
 	d3.selectAll(".sneakers img")
+	.classed("unblurred", true)
 	.classed("blurred", false);
 
 	//Apply the highlighted class
-	d3.select(this)
-	.classed("highlighted", false);
+	//d3.select(this)
+	//.classed("highlighted", false);
 
 	//Remove tooltip information
 	d3.select(".sneaker_tooltip")

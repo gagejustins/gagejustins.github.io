@@ -121,8 +121,13 @@ footer li {
 }
 
 .blurred {
-    transition: 1s;
-    filter: blur(.2rem); 
+    transition: .8s;
+    filter: blur(.4rem); 
+}
+
+.unblurred {
+    transition: .5s;
+    filter: blur(0);
 }
 
 .hidden {
