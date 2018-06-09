@@ -49,8 +49,8 @@ sneakers.on("mouseover", function() {
 
 	//Remove blur
 	d3.selectAll(".sneakers img")
-	.classed("unblurred", true)
-	.classed("blurred", false);
+	.classed("blurred", false)
+	.classed("unblurred", true);
 
 	//Apply the highlighted class
 	//d3.select(this)
