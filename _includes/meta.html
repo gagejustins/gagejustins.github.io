@@ -1,0 +1,12 @@
+{% if page.description %}
+<meta name="title" content="{{ page.title | escape }}">
+{% endif %}
+{% if page.title %}
+<meta name="description" content="{{ page.description | escape }}">
+{% endif %}
+{% if page.tags %}
+<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+{%endif %}
+{% if page.thumbnail %}
+<meta property="og:image" content="{{ page.thumbnail }}">
+{% endif %}

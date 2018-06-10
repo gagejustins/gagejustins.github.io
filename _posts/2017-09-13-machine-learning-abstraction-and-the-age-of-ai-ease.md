@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Machine Learning abstraction and the age of AI ease" 
-tag: AI, Software
+tags: [AI, Software]
 description: New tools are making it easier than ever to get AI up and running.
 thumbnail: /assets/images/abstraction/abs5.png
 date: 2017-09-13

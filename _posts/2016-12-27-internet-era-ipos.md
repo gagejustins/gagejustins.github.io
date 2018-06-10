@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How the internet era radically changed the U.S. stock market"
-tag: Finance, Software, Data
+tags: [Finance, Software, Data]
 description: IPO conditions today may resemble the dot com days.
 thumbnail: /assets/images/ipos/ipo_thumbnail.png
 date: 2016-12-27
