@@ -28,7 +28,7 @@ sneakers.on("mouseover", function() {
 		if (['gats', 'pharrell'].includes(sneakerName)) {
 			return xPos - 240 + "px";
 		} else {
-			return xPos + "px";
+			return xPos + 10 + "px";
 		}
 	})
 	.style("top", yPos - 265 + "px")
