@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+	<html class="topic">
+		<head>
+			{% include head.html %}
+			{% include nav.html %}
+		</head>
+			<!-- begin content -->
+			{{ content }}
+			<!-- end content -->
+			{% if jekyll.environment == 'production' %}
+    	{% include analytics.html %}
+    	{% endif %}
+    	{% include share-page.html %}
+    	<script src="https://d3js.org/d3.v4.min.js"></script>
+		{% if page.custom_js %}
+			{% for js_file in page.custom_js %}
+			<script  type="text/javascript" src="/assets/js/{{ js_file }}"></script>
+	    	{% endfor %}
+		{% endif %}
+		</body>
+	</html>

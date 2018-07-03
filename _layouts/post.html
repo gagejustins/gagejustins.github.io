@@ -11,20 +11,15 @@
 		<div class="container-fluid">
 			<div class="post">
 				<div class="container">
-					<div class="row">
+					<div class="row post">
 						<div class="col-md-10 offset-md-1">
 							<h1 class="supreme">{{ page.title }}</h1>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-8 offset-md-2 date">
-						<p class="meta" style="padding-top: 20px;"><i>{{ page.date | date: "%b %d | %Y" }}</i></p>
-					</div>
-				</div>
 				</div>
 				<!-- begin content -->
-				<div class="container-fluid">
+				<div class="container-fluid post" style="padding-top: 40px;">
 					<div class="row">
 						<div class="col-md-6 offset-md-3">
 							{{ content }}
@@ -32,13 +27,18 @@
 					</div>
 				</div>
 				<div class="container">
+					<div class="row">
+						<div class="col-md-8 offset-md-2 date">
+							<p class="meta"><i>{{ page.date | date: "%b %d | %Y" }}</i></p>
+						</div>
+					</div>
 					{% include share-page.html %}
 				</div>
 				{% if jekyll.environment == 'production' %}
 					{% include analytics.html %}
 				{% endif %}
 				<!-- include shrinking navbar -->
-				<script type="text/javascript" src="/assets/js/shrinking-navbar.js"></script>
+				<script type="text/javascript" src="/assets/js/utils/shrinking-navbar.js"></script>
 				{% if page.custom_js %}
 					{% for js_file in page.custom_js %}
 						<script  type="text/javascript" src="/assets/js/{{ js_file }}"></script>
