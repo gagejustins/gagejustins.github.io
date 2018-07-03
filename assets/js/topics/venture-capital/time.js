@@ -60,7 +60,7 @@ g.on("mouseover", function() {
 	.selectAll("path")
 	.transition()
 	.style("fill", "black")
-	.style("opacity", .8)
+	.style("opacity", .1)
 
 	var text = d3.select(this)
 	.append("text")
@@ -89,6 +89,7 @@ g.on("mouseover", function() {
 	.style("fill", function(d) {
 		return d.data.color;
 	})
+	.style("opacity", 1);
 
 })
 
