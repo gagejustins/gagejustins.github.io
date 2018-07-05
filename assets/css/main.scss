@@ -449,26 +449,23 @@ ul.posts li {
 }
 
 /* Styling for back to top button */
-@media (min-width: 1199px) {
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 9px 3px 9px 3px;
+    border-radius: 10px;
+}
 
-    #topButton {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 999;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 9px 3px 9px 3px;
-        border-radius: 10px;
-    }
-
-    #topButton:hover {
-        transition: .35s;
-        color: black;
-        filter: drop-shadow(0 0 20px gray);
-    }
+#topButton:hover {
+    transition: .35s;
+    color: black;
+    filter: drop-shadow(0 0 20px gray);
 }
 
 .topics_header {
