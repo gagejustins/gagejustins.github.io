@@ -310,6 +310,17 @@ h1.supreme {
     line-height: 4.4rem;
 }
 
+h2.supreme {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: red;
+    box-shadow: 10px 0 0 red, -10px 0 0 red;
+    padding: 2px 0px 6px 0px;
+    line-height: 3.1rem;
+}
+
 .supreme {
     display: inline;
     font-family: Futura, sans-serif !important;
