@@ -31,11 +31,11 @@
 		"comment": "These are the funkiest shoes I own. There's a multicolor paint splatter on the front, done by the designer."
 	},
 
-	"pharrell": {
+	"cdg": {
 		"type": "Sneaker",
-		"brand": "Adidas",
-		"description": "Pharrell Hu Holi Tennis",
-		"purchased": "April 2018",
-		"comment": "Favorite shoe of 2018. Comfortable, slim profile, reasonably priced. This is my second pair already this year."
+		"brand": "Converse x Comme Des Garçons",
+		"description": "PLAY Chucks",
+		"purchased": "June 2018",
+		"comment": "I like these because they're the normal Chuck shape with a little unique logo splash. Just the right mix of subtle and loud for me."
 	}
 }

@@ -25,7 +25,7 @@ sneakers.on("mouseover", function() {
 	.classed("hidden", false)
 	.style("left", function() {
 		//If the selection is the two rightmost sneakers, display the tooltip a bit to the left
-		if (['gats', 'pharrell'].includes(sneakerName)) {
+		if (['gats', 'yeezy'].includes(sneakerName)) {
 			return xPos - 240 + "px";
 		} else {
 			return xPos + 10 + "px";
