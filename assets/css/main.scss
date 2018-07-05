@@ -551,13 +551,15 @@ ul.posts li {
     margin: 5px 4% 2px 4%;
 }
 
-.rectangle {
-    position: relative;
-    left: 0px;
-    bottom: 30px;
-    height: 200px;
-    width: 450px;
-    background-color: black;
+/* Display the data icons background if its not a mobile device */
+@media (min-width: 1199px) {
+
+    .data_icons {
+        background-image: url('/assets/images/background1.png');
+        background-size: 85%;
+         /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+    }
 }
 
 /* Styling for social share buttons */
