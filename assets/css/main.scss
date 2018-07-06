@@ -563,10 +563,19 @@ ul.posts li {
 
 /* Display the data icons background if its not a mobile device */
 @media (min-width: 1199px) {
-
     .data_icons {
         background-image: url('/assets/images/background1.png');
         background-size: 85%;
+         /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .data_icons {
+        background-image: url('/assets/images/background1.png');
+        background-size: 75%;
          /* Create the parallax scrolling effect */
         background-attachment: fixed;
     }
