@@ -330,6 +330,38 @@ h2.supreme {
     padding: 2px 0px 6px 0px;
 }
 
+h1.supreme_black {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    box-shadow: 10px 0 0 black, -10px 0 0 black;
+    padding: 2px 0px 6px 0px;
+    line-height: 4.4rem;
+}
+
+h2.supreme_black {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    box-shadow: 10px 0 0 black, -10px 0 0 black;
+    padding: 2px 0px 6px 0px;
+    line-height: 3.1rem;
+}
+
+.supreme_black {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: black;
+    box-shadow: 10px 0 0 black, -10px 0 0 black;
+    padding: 2px 0px 6px 0px;
+}
+
 /* Styling for cards on posts page */
 .card.writing-card {
     font-family: var(--main-body-font);
@@ -579,6 +611,24 @@ ul.posts li {
          /* Create the parallax scrolling effect */
         background-attachment: fixed;
     }
+}
+
+.gold-text {
+    font-family: Roboto Condensed;
+    font-weight: 200;
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url("/assets/images/style/gold.jpg") repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+.full-width-header {
+    padding-top: 60px;
+    padding-bottom: 40px; 
+    margin: 40px 0px 60px 0px;
+    text-align: center;
 }
 
 /* Styling for social share buttons */
