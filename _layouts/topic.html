@@ -3,6 +3,11 @@
 		<head>
 			{% include head.html %}
 			{% include nav.html %}
+	    	{% if page.custom_fonts %}
+	    		{% for font_link in page.custom_fonts %}
+	    			<link href="{{ font_link }}" rel="stylesheet">
+	    		{% endfor %}
+    		{% endif %}
 		</head>
 			<!-- begin content -->
 			{{ content }}
