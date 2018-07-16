@@ -29,7 +29,7 @@ a:hover {
 
 p, ul, ol {
     font-family: var(--main-body-font);
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.3em;
     line-height: 1.4em;
     color: #333;
@@ -44,16 +44,20 @@ h1 {
 }
 
 h2, h3 {
-    /*font-family:'Playfair Display', serif;*/
-    color: red;
+    font-family: var(--main-header-font);
+    color: black;
     padding-bottom: 20px;
     padding-top: 10px;
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid black;
     font-size: .8em;
     padding-bottom: 50px;
+}
+
+footer a {
+    color: black;
 }
 
 footer ul {
@@ -86,12 +90,26 @@ footer li {
     transition: .7s;
 }
 
+.sneakers-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("/assets/images/backgrounds/sneakers1.png");
+    height: 300px;
+    background-size: auto 400px;
+}
+
 .navbar {
     transition: .5s;
-    background-image: url("/assets/images/camo3.jpg");
+    background: none;
+    color: black;
     margin-bottom: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.topic .navbar {
+    background-color: #DEF1FF;
 }
 
 .navbar.compressed {
@@ -100,6 +118,7 @@ footer li {
     padding-bottom: 5px;
     font-size: .8em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    background-color: #DEF1FF;
 }
 
 .navbar-brand {
@@ -107,7 +126,7 @@ footer li {
 }
 
 .navbar a {
-    color: white;
+    color: black;
 }
 
 .navbar a:hover {
@@ -116,8 +135,8 @@ footer li {
 
 .navbar ul li a {
     font-family: var(--main-body-font);
-    font-weight: 400;
-    color: white;
+    font-weight: 300;
+    color: black;
     text-decoration: none;
 }
 
@@ -297,6 +316,10 @@ footer ul a.linkedinLink:hover {
     color: black;
 }
 
+.portfolio .row {
+    padding: 70px 0px 70px 0px;
+}
+
 /* Supreme styling */
 h1.supreme {
     display: inline;
@@ -362,6 +385,44 @@ h2.supreme_black {
     padding: 2px 0px 6px 0px;
 }
 
+/* Supreme styling */
+h1.supreme-light {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: #FFBCC2;
+    box-shadow: 10px 0 0 #FFBCC2, -10px 0 0 #FFBCC2;
+    padding: 2px 0px 6px 0px;
+    line-height: 4.4rem;
+}
+
+h2.supreme-light {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: #FFBCC2;
+    box-shadow: 10px 0 0 #FFBCC2, -10px 0 0 #FFBCC2;
+    padding: 2px 0px 6px 0px;
+    line-height: 3.1rem;
+}
+
+#navbar-brand:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.supreme-light {
+    display: inline;
+    font-family: Futura, sans-serif !important;
+    font-style: italic;
+    color: white;
+    background-color: #FFBCC2;
+    box-shadow: 10px 0 0 #FFBCC2, -10px 0 0 #FFBCC2;
+    padding: 2px 0px 6px 0px;
+}
+
 /* Styling for cards on posts page */
 .card.writing-card {
     font-family: var(--main-body-font);
@@ -380,6 +441,29 @@ div.card.writing-card {
 
 .card.writing-card .text-primary {
     color: red !important;
+}
+
+.card.home-card {
+    text-align: center;
+    border: 0;
+    border-radius: 10px;
+}
+
+.card.home-card button {
+    background-color: white;
+}
+
+.card.home-card h2 {
+    font-family: var(--main-body-font);
+    font-weight: 500;
+    color: black;
+    font-size: 1.8em;
+}
+
+.card.home-card p {
+    font-family: var(--main-body-font);
+    font-weight: 300;
+    color: black;
 }
 
 .date {

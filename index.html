@@ -3,26 +3,85 @@ layout: default
 title: "Justin Gage, Data (Scientist)"
 custom_js:
 - utils/tooltips.js
+- utils/shrinking-navbar.js
 ---
 
 <div class="text">
 	<div class="row">
-		<div class="col-xs-8 col-sm-10 col-md-12 futura_paragraph">
+		<div class="col-xs-8 col-sm-10 col-md-12">
+			<h2 style="padding: 0px 0px 50px 0px; font-family: IBM Plex Sans, sans-serif; font-weight: bold;">Justin Gage, Data (Scientist)</h2>
 			<p>I'm a Data Scientist with a focus on integrating data into general functions, like growth and product. I work at <a href="https://algorithmia.com"  target="_blank" class="redlink">Algorithmia</a>, a startup that deploys Machine Learning at scale.</p>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col-xs-8 col-sm-10 col-md-12 futura_paragraph">
+		<div class="col-xs-8 col-sm-10 col-md-12">
 			<p id="bottom_paragraph">I used to be a VC Analyst and majored in Data Science at <a href="http://www.stern.nyu.edu/portal-partners/current-students/undergraduate/academics/degree-programs/business-program/computing-and-data-science" target="_blank" class="redlink">NYU Stern</a>.</p>
 		</div>
 	</div>
 </div>
 
-<div class="row tooltips d-none d-md-block">
+<div class="row" style="padding-top: 100px;">
+	<div class="col-sm-12 col-md-4 d-flex" style="padding: 20px 30px 0px 30px;">
+		<div class="card home-card shadow" style="background: linear-gradient(#DCFFE5, #BBFFCA);">
+			<div class="card-body flex-fill">
+		  		<div class="row">
+			  		<div class="col-md-10 offset-md-1">
+			    		<h2 class="card-title">Dataviz</h2>
+			    		<p class="card-text">"This is America" visualizes key datasets across the U.S.</p>
+			    		<img src="/assets/images/backgrounds/usa.png" width="70%" style="padding: 20px 0px 40px 0px;">
+		    		</div>
+    			</div>	
+    			<div class="row">
+	    			<div class="col-md-12">
+		    			<a href="/dataviz/united-states-by-state.html" target="_blank"><button type="button" class="btn btn-light">Interact with it</button></a>
+		    		</div>
+ 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-4 d-flex" style="padding: 20px 30px 0px 30px;">
+		<div class="card home-card shadow" style="background: linear-gradient(#FFD9DD, #FFB9C0);">
+			<div class="card-body flex-fill">
+		  		<div class="row">
+			  		<div class="col-md-10 offset-md-1">
+			    		<h2 class="card-title">Writing</h2>
+			    		<p class="card-text">I recently wrote about some lessons tech can learn from style and streetwear.</p>
+			    		<img src="/assets/images/backgrounds/bball.png" width="60%" style="padding: 35px 0px 55px 0px;">
+		    		</div>
+    			</div>	
+    			<div class="row">
+	    			<div class="col-md-12">
+		    			<a href="{{ site.baseurl }}{% post_url 2018-07-07-tech-lessons-learned-from-style %}" target="_blank"><button type="button" class="btn btn-light">Read it</button></a>
+		    		</div>
+ 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-4 d-flex" style="padding: 20px 30px 0px 30px;">
+		<div class="card home-card shadow" style="background: linear-gradient(#FFF1DC, #FFE0BC);">
+			<div class="card-body flex-fill">
+		  		<div class="row">
+			  		<div class="col-md-10 offset-md-1">
+			    		<h2 class="card-title">Topics</h2>
+			    		<p class="card-text">“The skeptic’s guide to VC” walks you through an insiders perspective, with data to boot.</p>
+			    		<img src="/assets/images/backgrounds/vest.png" width="30%" style="padding: 15px 0px 40px 0px;">
+		    		</div>
+    			</div>	
+    			<div class="row">
+	    			<div class="col-md-12">
+		    			<a href="/topics/venture-capital.html" target="_blank"><button type="button" class="btn btn-light">Check it out</button></a>
+		    		</div>
+ 				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 
+<!--
+<div class="row tooltips d-none d-md-block">
+</div>
 
 <div class="row sneakers" style="padding-top: 35px; padding-bottom: 35px;">
 	<div class="col-xs-6 col-sm-4 col-md-2">
