@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html class="portfolio">
+		<head>
+			{% include head.html %}
+		</head>
+		<div class="container-fluid">
+				<div class="row" style="padding-bottom: 125px;">
+					<div class="col-md-8 offset-md-2">
+						<h1 class="supreme-light"><a href="/" style="color: white;">&larr;</a> {{ page.title }}</h1>
+					</div>
+				</div>
+				<!-- begin content -->
+				<div class="container">
+					{{ content }}
+				</div>
+			</div>
+				<div style="background: linear-gradient(#DEF1FF, #C3E5FF); pointer-events: none;">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-8 col-sm-10 col-md-12" style="padding-top: 90px;">
+								{% include footer.html %}
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+			{% if jekyll.environment == 'production' %}
+    	{% include analytics.html %}
+    	{% endif %}
+    	<script  type="text/javascript" src="http://d3js.org/d3.v4.min.js"></script>
+		{% if page.custom_js %}
+			{% for js_file in page.custom_js %}
+			<script  type="text/javascript" src="/assets/js/{{ js_file }}"></script>
+	    	{% endfor %}
+		{% endif %}
+		</body>
+	</html>
