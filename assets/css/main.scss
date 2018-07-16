@@ -121,6 +121,13 @@ footer li {
     background-color: #DEF1FF;
 }
 
+.navbar-expand-lg {
+    background-color: #DEF1FF;
+}
+
+.navbar .navbar-toggler-icon {
+  fill: #DEF1FF; /* Changes regular toggle color */
+}
 .navbar-brand {
     width: 6%;
 }
