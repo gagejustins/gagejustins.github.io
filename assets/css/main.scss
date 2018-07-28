@@ -187,18 +187,78 @@ footer li {
 }
 
 .card-header {
-    font-family: Roboto Mono, serif;
+    font-family: var(--main-body-font);
 }
 
 .card-title {
-    font-family:Roboto Mono, serif;
+    font-family: var(--main-body-font);
     font-size:.8em;
     color:gray
 }
 
-.card-body p, .card-body ul {
-    font-family: Roboto Mono, monospace;
+/*    font-family: Roboto Mono, monospace;
     font-size:.9em
+}*/
+
+.card.portfolio-card {
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px #C6C6C6;
+}
+
+.card.portfolio-card:hover, .card.home-card:hover {
+    transition: .3s;
+    -moz-transform: translate(0px, -12px);
+    -ms-transform: translate(0px, -12px);
+    -o-transform: translate(0px, -12px);
+    -webkit-transform: translate(0px, -12px);
+    transform: translate(0px, -12px);
+}
+
+.card.portfolio-card a:hover {
+    text-decoration: none;
+}
+
+.card.portfolio-card .card-img-top {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card.portfolio-card .btn {
+    text-align: center;
+    border: none;
+}
+
+.card.portfolio-card .card-body p {
+    padding: 50px 10px 60px 10px;
+    font-family: var(--main-body-font);
+    font-size: .95em;
+}
+
+.card.portfolio-card .card-body a {
+    color: white;
+    font-weight: 500;
+}
+
+.card-header.portfolio-card-header {
+    color: white;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card-header.portfolio-card-header-white {
+    background-color: white;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.portfolio-thumbnail {
+    box-shadow: 5px 5px 20px #C6C6C6;
+    width: 40%;
+    margin-bottom: 25px;
 }
 
 /* Paragraph styling */
@@ -323,8 +383,39 @@ footer ul a.linkedinLink:hover {
     color: black;
 }
 
+/*portfolio syling*/
+
 .portfolio .row {
     padding: 70px 0px 70px 0px;
+}
+
+.portfolio .text-image-center {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.portfolio .text-image-center p {
+    font-family: Futura, sans-serif;
+    font-style: italic;
+}
+
+.portfolio-image:hover img {
+    transition: .3s;
+    opacity: .075;
+}
+
+.portfolio-image:hover > div.text-image-center {
+    display: block;
+}
+
+.portfolio .shadow-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Supreme styling */
@@ -471,6 +562,16 @@ div.card.writing-card {
     font-family: var(--main-body-font);
     font-weight: 300;
     color: black;
+    font-size: .9em;
+}
+
+.home-text {
+    padding: 20px 10px 20px 10px;
+}
+
+.home-text p {
+    line-height: 1.35;
+    padding-bottom: 20px;
 }
 
 .date {

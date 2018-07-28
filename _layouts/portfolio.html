@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 	<html class="portfolio">
 		<head>
+			{% include nav.html %}
 			{% include head.html %}
+			<div class="container-fluid sneakers-background">
+			</div>
 		</head>
-		<div class="container-fluid">
+		<div class="portfolio">
+			<div class="container">
 				<div class="row" style="padding-bottom: 125px;">
-					<div class="col-md-8 offset-md-2">
-						<h1 class="supreme-light"><a href="/" style="color: white;">&larr;</a> {{ page.title }}</h1>
-					</div>
-				</div>
-				<!-- begin content -->
-				<div class="container">
-					{{ content }}
 				</div>
 			</div>
-				<div style="background: linear-gradient(#DEF1FF, #C3E5FF); pointer-events: none;">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-8 col-sm-10 col-md-12" style="padding-top: 90px;">
-								{% include footer.html %}
-							</div>
-						</div>
-					</div>	
+			<!-- begin content -->
+			{{ content }}
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-sm-10 col-md-12" style="padding-top: 90px;">
+					{% include footer.html %}
 				</div>
 			</div>
+		</div>	
+		</div>
 			{% if jekyll.environment == 'production' %}
     	{% include analytics.html %}
     	{% endif %}
