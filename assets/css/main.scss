@@ -217,7 +217,7 @@ footer li {
     transform: translate(0px, -12px);
 }
 
-.card.portfolio-card a:hover {
+.card.portfolio-card a:hover, .card.home-card a:hover {
     text-decoration: none;
 }
 
