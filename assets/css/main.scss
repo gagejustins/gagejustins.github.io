@@ -236,6 +236,16 @@ footer li {
     font-size: .95em;
 }
 
+.card.portfolio-card .card-body p.card-text.portfolio-subhead {
+    padding-top: 10px;
+}
+
+.card.portfolio-card .card-body h5 {
+    padding: 50px 10px 0px 10px;
+    font-family: var(--main-body-font);
+    font-size: 1.4em;
+}
+
 .card.portfolio-card .card-body a {
     color: white;
     font-weight: 500;
