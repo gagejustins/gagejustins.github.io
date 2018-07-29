@@ -222,7 +222,7 @@ footer li {
 }
 
 .card.portfolio-card .card-img-top {
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 0px;
 }
 
 .card.portfolio-card .btn {
@@ -231,7 +231,7 @@ footer li {
 }
 
 .card.portfolio-card .card-body p {
-    padding: 50px 10px 60px 10px;
+    padding: 50px 10px 50px 10px;
     font-family: var(--main-body-font);
     font-size: .95em;
 }
@@ -242,10 +242,17 @@ footer li {
 }
 
 .card-header.portfolio-card-header {
-    color: white;
+    border-top: 1px #f8f8f8;
+    color: black;
     text-align: center;
     padding: 30px 30px 30px 30px;
     border-radius: 8px 8px 0px 0px;
+}
+
+.card-footer.portfolio-card-footer {
+    font-size: .9em;
+    padding: 15px 15px 7px 15px;
+    text-align: center;
 }
 
 .card-header.portfolio-card-header-white {
@@ -257,8 +264,12 @@ footer li {
 
 .portfolio-thumbnail {
     box-shadow: 5px 5px 20px #C6C6C6;
-    width: 40%;
+    width: 25%;
     margin-bottom: 25px;
+}
+
+.card-brand-image {
+    padding: 25px 0px 10px 0px;
 }
 
 /* Paragraph styling */
