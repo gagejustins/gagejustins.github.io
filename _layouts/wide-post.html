@@ -4,6 +4,12 @@
 		{% include nav.html %}
 		{% include meta.html %}
 		{% include head.html %}
+		{% include head.html %}
+	    	{% if page.custom_fonts %}
+	    		{% for font_link in page.custom_fonts %}
+	    			<link href="{{ font_link }}" rel="stylesheet">
+	    		{% endfor %}
+		{% endif %}
 		<div class="container-fluid sneakers-background">
 		</div>
 	</head>
