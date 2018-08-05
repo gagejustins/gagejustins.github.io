@@ -50,7 +50,6 @@
  
 body {
     padding-top: 150px;
-    line-height: 30px;
 }
 
 a {
@@ -439,6 +438,11 @@ footer ul a.redditLink:hover {
 }
 footer ul a.linkedinLink:hover {
     color: #0077B5;
+}
+
+.wide-post.container {
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .post body {
