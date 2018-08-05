@@ -21,17 +21,24 @@ custom_js:
 	<p>&nbsp;</p>
 </div>-->
 
+<div class="container">
+	<div class="sneakers-background-straight">
+	</div>
+</div>
+
 {% for post in site.posts %}
-<div class="row" style="padding-top: 30px;">
-	<div class="col-md-11">
-		<div class="card writing-card flex-md-row box-shadow h-md-200">
-			<div class="card-body d-flex flex-column align-items-start">
-				<strong class="d-inline-block mb-2" style="color: #FFBCC2">{{ post.tags | join: ', ' | escape }}</strong>
-				<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-				<div class="mb-1 text-muted">{{ post.date | date_to_string }}</div>
-				<p class="card-text mb-auto">{{ post.description }}</p>
+<div class="container">
+	<div class="row" style="padding-top: 30px;">
+		<div class="col-md-10 offset-md-1">
+			<div class="card writing-card flex-md-row box-shadow h-md-200">
+				<div class="card-body d-flex flex-column align-items-start">
+					<strong class="d-inline-block mb-2" style="color: red">{{ post.tags | join: ', ' | escape }}</strong>
+					<h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+					<div class="mb-1 text-muted">{{ post.date | date_to_string }}</div>
+					<p class="card-text mb-auto">{{ post.description }}</p>
+				</div>
+				<img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x200?theme=thumb" alt="Thumbnail [200x200]" style="width: 200px; height: 200px;" src={{ post.thumbnail }} data-holder-rendered="true">
 			</div>
-			<img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x200?theme=thumb" alt="Thumbnail [200x200]" style="width: 200px; height: 200px;" src={{ post.thumbnail }} data-holder-rendered="true">
 		</div>
 	</div>
 </div>

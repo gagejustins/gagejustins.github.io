@@ -3,23 +3,21 @@
 	<head>
 		{% include nav.html %}
 		{% include head.html %}
-		<div class="container-fluid sneakers-background">
-		</div>
+		<!--<div class="container-fluid sneakers-background">
+		</div>-->
 	</head>
 	<body>
 		<!-- begin content -->
-		<div class="container" style="padding-bottom: 25px; padding-top: 250px;">
+		<div style="padding-bottom: 25px; padding-top: 40px;">
 			{{ content }}
 		</div>
-		<div class="container-fluid" style="background: linear-gradient(#DEF1FF, #C3E5FF); margin-top: -170px; pointer-events: none;">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-8 col-sm-10 col-md-12" style="padding-top: 370px;">
-						{% include footer.html %}
-					</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-sm-10 col-md-12" style="padding-top: 270px;">
+					{% include footer.html %}
 				</div>
-			</div>	
-		</div>
+			</div>
+		</div>	
 		{% if jekyll.environment == 'production' %}
 			{% include analytics.html %}
 		{% endif %}

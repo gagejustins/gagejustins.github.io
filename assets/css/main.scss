@@ -9,12 +9,48 @@
 @import "bootstrap_customization";
 
 :root {
-  --main-body-font: IBM Plex Sans, sans-serif;
-  --main-header-font: Assistant, sans-serif;
+  --main-body-font: Open Sans, sans-serif;
+  --main-header-font: Sorts Mill Goudy, serif;
+  --main-header-color: #5C755E;
+  --main-body-color: #F9F4F1;
+  --main-footer-color: #9C9F84;
+}
+
+.sneakers-short {
+    text-align: center;
+    padding: 50px 10px 90px 10px;
+}
+
+.container-home {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner-image-hidden {
+    padding: 0px 10px 70px 10px;
+    width: 80%
+}
+
+.banner-image:hover {
+    transition: .4s;
+    -moz-transform: translate(0px, -12px);
+    -ms-transform: translate(0px, -12px);
+    -o-transform: translate(0px, -12px);
+    -webkit-transform: translate(0px, -12px);
+    transform: translate(0px, -12px);
+}
+
+.cv-section {
+    padding: 30px 5px 30px 5px;
+}
+
+.active a {
+    color: red;
 }
  
 body {
     padding-top: 150px;
+    line-height: 28px;
 }
 
 a {
@@ -37,13 +73,13 @@ p, ul, ol {
 
 h1 {
     font-size: 3em;
-    font-weight: bold;
+    font-weight: 300;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: var(--main-header-font)
 }
 
-h2, h3 {
+h2, h3, h5 {
     font-family: var(--main-header-font);
     color: black;
     padding-bottom: 20px;
@@ -90,13 +126,27 @@ footer li {
     transition: .7s;
 }
 
-.sneakers-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("/assets/images/backgrounds/sneakers1.png");
-    height: 300px;
-    background-size: auto 400px;
+.sneakers-background-straight {
+    background-image: url("/assets/images/backgrounds/sneakersshort.png");
+    height: 200px;
+    background-size: auto 53px;
+    background-repeat: repeat-x;
+    margin: 80px 5px -15px 5px;
+}
+
+.sneakers-background-curved {
+    background-image: url("/assets/images/backgrounds/sneakers.png");
+    height: 200px;
+    background-size: auto 150px;
+    background-repeat: repeat-x;
+}
+
+.guitars-background-straight {
+    background-image: url("/assets/images/backgrounds/guitars.png");
+    height: 200px;
+    background-size: auto 164px;
+    background-repeat: repeat-x;
+    margin: 80px 5px -15px 5px;
 }
 
 .navbar {
@@ -109,31 +159,27 @@ footer li {
 }
 
 .topic .navbar {
-    background-color: #DEF1FF;
+    background-color: var(--main-header-color);
 }
 
 .navbar.compressed {
     transition: .5s;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: .8em;
+    font-size: .9em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    background-color: #DEF1FF;
+    background-color: white;
 }
 
 .navbar-expand-lg {
-    background-color: #DEF1FF;
+    background-color: white;
 }
 
 .navbar .navbar-toggler-icon {
-  fill: #DEF1FF; /* Changes regular toggle color */
+  fill: var(--main-header-color); /* Changes regular toggle color */
 }
 .navbar-brand {
     width: 6%;
-}
-
-.navbar a {
-    color: black;
 }
 
 .navbar a:hover {
@@ -142,7 +188,9 @@ footer li {
 
 .navbar ul li a {
     font-family: var(--main-body-font);
-    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .8em;
+    font-weight: 400;
     color: black;
     text-decoration: none;
 }
@@ -162,6 +210,10 @@ footer li {
 
 #dropdown-item {
     color: black;
+}
+
+.banner-row {
+    padding: 80px 5px 80px 5px;
 }
 
 .blurred {
@@ -184,10 +236,6 @@ footer li {
 .hidden {
     transition: 1s;
     display: none;
-}
-
-.card-header {
-    font-family: var(--main-body-font);
 }
 
 .card-title {
@@ -242,7 +290,7 @@ footer li {
 
 .card.portfolio-card .card-body h5 {
     padding: 50px 10px 0px 10px;
-    font-family: var(--main-body-font);
+    font-family: var(--main-header-font);
     font-size: 1.4em;
 }
 
@@ -263,6 +311,7 @@ footer li {
     font-size: .9em;
     padding: 15px 15px 7px 15px;
     text-align: center;
+    font-family: var(--main-body-font);
 }
 
 .card-header.portfolio-card-header-white {
@@ -385,6 +434,7 @@ footer ul a.linkedinLink:hover {
     font-family: var(--main-body-font);
     margin-top: 40px;
     margin-bottom: 40px;
+    line-height: 30px;
 }
 
 .post a {
@@ -396,7 +446,6 @@ footer ul a.linkedinLink:hover {
 .post h1 {
     padding-bottom: 50px;
     padding-top: 42px;
-    font-weight: 700;
 }
 
 .post a:hover {
@@ -547,11 +596,13 @@ h2.supreme-light {
     font-family: var(--main-body-font);
 }
 
-.card.writing-card
-
 .writing-card .card-body h3, .writing-card .card-body a {
     color: black;
-    font-size: .9em;
+    font-size: 1.2em;
+}
+
+.writing-card p {
+    font-size: 1em;
 }
 
 div.card.writing-card {

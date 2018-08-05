@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visualizing the historical growth of U.S. healthcare costs, 1960–2015"
+title: "Visualizing the historical growth of U.S. healthcare costs"
 tags: [Healthcare, Data]
 description: Why is the our system the most expensive in the world?
 thumbnail: /assets/images/healthcare/healthcare1.png
