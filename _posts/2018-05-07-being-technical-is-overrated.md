@@ -3,7 +3,7 @@ layout: post
 title: "You should probably care less about being technical"
 tags: [Semantics]
 description: Using the word technical to describe skillsets is too simplistic.
-thumbnail: /assets/images/camo2.png
+thumbnail: /assets/images/thumbnails/camo2.png
 date: 2018-05-07
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "How different stages of investors align with founders" 
 tags: [VC, Finance]
 description: Investing earlier can mean being more in sync.
-thumbnail: /assets/images/camo2.png
+thumbnail: /assets/images/thumbnails/camo2.png
 date: 2017-02-06
 ---
 
