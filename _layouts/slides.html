@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html class="visualization">
+		<head>
+			{% include meta.html %}
+			{% include slides.html %}
+			{% include head.html %}
+		</head>
+		<body>
+			{{ content }}
+		{% if jekyll.environment == 'production' %}
+    	{% include analytics.html %}
+    	{% endif %}
+		{% if page.custom_js %}
+			{% for js_file in page.custom_js %}
+			<script  type="text/javascript" src="/assets/js/{{ js_file }}"></script>
+	    	{% endfor %}
+		{% endif %}
+			<script src="/assets/js/libs/reveal.js-3.7.0/lib/js/head.min.js"></script>
+			<script src="/assets/js/libs/reveal.js-3.7.0/js/reveal.js"></script>
+			<script>
+				// More info about config & dependencies:
+				// - https://github.com/hakimel/reveal.js#configuration
+				// - https://github.com/hakimel/reveal.js#dependencies
+				Reveal.initialize({
+					dependencies: [
+						{ src: '/assets/js/libs/reveal.js-3.7.0/plugin/markdown/marked.js' },
+						{ src: '/assets/js/libs/reveal.js-3.7.0/plugin/markdown/markdown.js' },
+						{ src: '/assets/js/libs/reveal.js-3.7.0/plugin/notes/notes.js', async: true },
+						{ src: '/assets/js/libs/reveal.js-3.7.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					],
+
+					transition: 'slide'
+				});
+			</script>
+		</body>
+	</html>
