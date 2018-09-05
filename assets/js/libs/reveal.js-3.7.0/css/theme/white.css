@@ -12,7 +12,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 body {
   background: #fff;
-  background-color: #fff;}
+  background-color: #fff;
+}
 
 .reveal {
   font-family: "Open Sans", sans-serif;
@@ -44,7 +45,7 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: -40px 0 20px 0;
   color: #222;
   font-family: "Sorts Mill Goudy", serif;
   font-weight: 600;
@@ -80,6 +81,39 @@ font-size: .8em; }
   line-height: 1.3;
   font-size: .5em;
   text-align: left;  }
+
+.reveal .container {
+  padding: 0px 50px 0px 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .reveal h3, .reveal h5, .reveal p {
+    padding: 0px 40px 0px 40px;
+  }
+
+  .reveal .slides section {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+  }
+
+  .reveal h3, .reveal h5 {
+  }
+
+  .reveal h3 {
+    font-size: 110px;
+  }
+
+  .reveal h5 {
+    font-size: 90px;
+  }
+
+  .reveal p {
+    font-size: 50px;
+  }
+
+}
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
