@@ -83,7 +83,7 @@ Mid end clean sneaks will sell for less than $300, but offer a significant quali
 * [Greats](https://www.greats.com/) (the darling of this category, but ultimately disappointing for a number of reasons – [see my Twitter](https://twitter.com/jGage718/status/891073888297394178))
 * [Koio Collective](https://www.koio.co/?utm_expid=.e2MhJ8QdSrKTxgBkYnErtQ.0&utm_referrer=) (upstart NYC brand with cool new designs)
 * [Axel Arigato](https://axelarigato.com/usd/) (Amsterdam + Japan aesthetic, big fan)
-* Various DTC shoe brands ([Beckett Simonon](https://www.beckettsimonon.com/collections/mens/products/morgen-classic-full-grain-leather-white-white, [Velasca](https://www.velasca.com/pages/athletics), etc.)
+* Various DTC shoe brands ([Beckett Simonon](https://www.beckettsimonon.com/collections/mens/products/morgen-classic-full-grain-leather-white-white), [Velasca](https://www.velasca.com/pages/athletics), etc.)
 
 The mid-end combines elements of the low and high-end (thanks, professor obvious) – price is still accessible for your friends that are (still) associates at PwC, but materials are much higher quality than what you’d expect from Adidas or Nike. 
 
