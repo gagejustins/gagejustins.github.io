@@ -132,7 +132,7 @@ And here's what I was talking about with loading choices (it only shows the snea
 	<img src="/assets/images/snql/snql-use.png" width="100%">
 </div>
 
-The next part of this series will take a look at the second part of this project – building ETL and a downstream table with Airflow. Stay tuned!
+The next part of this series will take a look at the second part of this project – building ETL and a downstream table with Airflow. Stay tuned! You can check out [the SNQL app repo here](https://github.com/gagejustins/snql).
 
 <div class="top-padding-xs bottom-padding-sm" style="text-align: center;">
 	<img src="/assets/images/snql/end.gif" width="90%">
