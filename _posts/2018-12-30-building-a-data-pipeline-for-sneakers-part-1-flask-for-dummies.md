@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Building a Data Pipeline For Sneakers (Part 1)"
+title: "Building a Data Pipeline For Sneakers (Part 1): Flask for Dummies"
 tags: [Data]
-description: Flask for Dummies
-thumbnail: /assets/images/style/stansmith-square.png
+description: Tracking sneaker metrics from scratch
+thumbnail: /assets/images/snql/burn.gif
 date: 2018-12-30
 ---
 
