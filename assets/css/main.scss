@@ -142,6 +142,10 @@ footer ul a.linkedinLink:hover {
     margin-top: 125px;
 }
 
+.bottom-padding-xs {
+    padding-bottom: 25px;
+}
+
 .bottom-padding-sm {
     padding-bottom: 50px;
 }
@@ -648,6 +652,56 @@ body select {
 }
 
 /* End Dataviz elements */
+
+/* Sneaker visualizations elements */
+
+.sneaker-viz .axis {
+    font-family: var(--main-body-font);
+    stroke: black;
+}
+
+.sneaker-viz .axis text {
+    font-weight: normal;
+    fill: black;
+}
+
+.sneaker-viz .line {
+    fill: none;
+    stroke: red;
+    stroke-width: 4px;
+}
+
+.sneaker-viz .focus line {
+    stroke: #ff9999;
+}
+
+.sneaker-viz .overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.sneaker-viz .focus text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.sneaker-viz text.legend-text {
+    font-family: Roboto Mono, monospace;
+    font-size: .8em;
+    fill: black;
+    stroke: black;
+    font-weight: 400;
+}
+
+.sneaker-viz text.value_text {
+    font-family: 'Roboto Mono', monospace;
+    fill: white;
+    font-size: .9em;
+    font-weight: normal;
+}
+
+/* End sneaker visualiations elements */
 
 /* Topics page elements */
 
