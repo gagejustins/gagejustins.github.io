@@ -49,6 +49,8 @@ var yScale = d3.scaleLinear()
 .range([height - padding_y, padding_y])
 
 var parseDate = d3.timeParse("%Y-%m-%d");
+var formatMonth = d3.timeFormat("%b");
+var formatYear = d3.timeFormat("%y");
 var bisectDate = d3.bisector(function(d) { return d.date; }).left;
 
 d3.csv(link, function(data) {
@@ -112,8 +114,56 @@ d3.csv(link, function(data) {
 	.attr("r", 6.5)
 	.attr("fill", "red");
 
+	var tooltip_rect_height = 40,
+	tooltip_rect_width = 130;
+
+	var filter = focus.append("filter")
+	.attr("id", "drop-shadow")
+
+	filter.append("feDropShadow")
+	.attr("dx", 1)
+	.attr("dy", 1)
+	.attr("stdDeviation", 3)
+	.attr("flood-color", "#C8C8C8")
+
+	//Main tooltip rect
+	focus.append("rect")
+	.attr("width", tooltip_rect_width)
+	.attr("height", tooltip_rect_height)
+	.attr("y", -tooltip_rect_height/2)
+	.attr("x", -tooltip_rect_width/2)
+	.attr("rx", 3)
+	.attr("class", "tooltip-rect")
+	.attr("filter", "url(#drop-shadow)")
+
+	//Function for creating rect with rounded edges on only one side
+	function leftRoundedRect(x, y, width, height, radius) {
+	  return "M" + (x + radius) + "," + y
+	       + "h" + (width - radius)
+	       + "v" + height
+	       + "h" + (radius - width)
+	       + "a" + radius + "," + radius + " 0 0 1 " + (-radius) + "," + (-radius)
+	       + "v" + (2 * radius - height)
+	       + "a" + radius + "," + radius + " 0 0 1 " + radius + "," + (-radius)
+	       + "z";
+	}
+
+	//Highlight on tooltip rect
+	focus.append("path")
+	.attr("d", leftRoundedRect(-tooltip_rect_width/2, -tooltip_rect_height/2, tooltip_rect_width/1.6, tooltip_rect_height, 3))
+	.attr("class", "tooltip-rect-highlight")
+
+	//Tooltip date label text
 	focus.append("text")
-	.attr("y", -(height/25));
+	.attr("x", -tooltip_rect_width/2 + 15)
+	.attr("y", tooltip_rect_height/6)
+	.attr("class", "tooltip-label-text");
+
+	//Tooltip value text
+	focus.append("text")
+	.attr("x", tooltip_rect_width/4)
+	.attr("y", tooltip_rect_height/6)
+	.attr("class", "tooltip-value-text");
 
 	//Overlay rectangle
 	svg.append("rect")
@@ -139,17 +189,26 @@ d3.csv(link, function(data) {
 		var dataset_x = xScale.invert(d3.mouse(this)[0]);
 		var data_item = data[bisectDate(data, dataset_x)];
 
-		focus.attr("transform", "translate(" + xScale(data_item.date) + "," + yScale(data_item.num_owned) + ")")
-
-		focus.select("text")
-		.attr("x", function() {
-			if (data_item.num_owned < 10) {
-				return -5.5
+		focus.attr("transform", function(d) {
+			if (xScale(data_item.date) < 50) {
+				return "translate(" + (xScale(data_item.date) + 50) + "," + yScale(data_item.num_owned) + ")"
+			} else if (xScale(data_item.date) > width - 50) {
+				return "translate(" + (xScale(data_item.date) - 50) + "," + yScale(data_item.num_owned) + ")"
 			} else {
-				return -10;
+				return "translate(" + xScale(data_item.date) + "," + yScale(data_item.num_owned) + ")"
 			}
-		})
-		.text(data_item.num_owned);
+		});
+
+		focus.select(".tooltip-label-text")
+		.text(formatMonth(data_item.date) + " " + formatYear(data_item.date));
+
+		focus.select(".tooltip-value-text")
+		.text(data_item.num_owned)
+		.attr("transform", function(d) {
+			if (data_item.num_owned < 10) {
+				return "translate(" + 4 + ",0)"
+			} 
+		});
 	}
 
 })

@@ -701,6 +701,15 @@ body select {
     font-weight: normal;
 }
 
+.sneaker-viz rect.tooltip-rect {
+    fill: white;
+}
+
+.sneaker-viz path.tooltip-rect-highlight {
+    fill: red;
+    opacity: .2;
+}
+
 /* End sneaker visualiations elements */
 
 /* Topics page elements */
