@@ -702,12 +702,23 @@ body select {
 }
 
 .sneaker-viz rect.tooltip-rect {
-    fill: white;
+    fill: #ff9999;
 }
 
 .sneaker-viz path.tooltip-rect-highlight {
-    fill: red;
-    opacity: .2;
+    fill: white;
+}
+
+.sneaker-viz text.tooltip-label-text {
+    font-family: var(--main-body-font);
+    font-weight: bold;
+    fill: #B0B0B0;
+}
+
+.sneaker-viz text.tooltip-value-text {
+    font-family: var(--main-body-font);
+    fill: white;
+    font-weight: bold;
 }
 
 /* End sneaker visualiations elements */

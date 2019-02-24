@@ -155,7 +155,7 @@ d3.csv(link, function(data) {
 
 	//Tooltip date label text
 	focus.append("text")
-	.attr("x", -tooltip_rect_width/2 + 15)
+	.attr("x", -tooltip_rect_width/2 + 18)
 	.attr("y", tooltip_rect_height/6)
 	.attr("class", "tooltip-label-text");
 
@@ -200,7 +200,7 @@ d3.csv(link, function(data) {
 		});
 
 		focus.select(".tooltip-label-text")
-		.text(formatMonth(data_item.date) + " " + formatYear(data_item.date));
+		.text(formatMonth(data_item.date).toUpperCase() + " " + formatYear(data_item.date));
 
 		focus.select(".tooltip-value-text")
 		.text(data_item.num_owned)
