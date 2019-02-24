@@ -189,14 +189,23 @@ d3.csv(link, function(data) {
 		var dataset_x = xScale.invert(d3.mouse(this)[0]);
 		var data_item = data[bisectDate(data, dataset_x)];
 
-		focus.attr("transform", function(d) {
-			if (xScale(data_item.date) < 50) {
-				return "translate(" + (xScale(data_item.date) + 50) + "," + yScale(data_item.num_owned) + ")"
-			} else if (xScale(data_item.date) > width - 50) {
-				return "translate(" + (xScale(data_item.date) - 50) + "," + yScale(data_item.num_owned) + ")"
-			} else {
-				return "translate(" + xScale(data_item.date) + "," + yScale(data_item.num_owned) + ")"
-			}
+		//display tooltip
+		displayTooltip(data_item);
+
+	}
+
+	function displayTooltip(data_item) {
+ 
+		focus.style("display", null);
+
+		focus.attr("transform", function() {
+		if (xScale(data_item.date) < 50) {
+			return "translate(" + (xScale(data_item.date) + 50) + "," + yScale(data_item.num_owned) + ")"
+		} else if (xScale(data_item.date) > width - 50) {
+			return "translate(" + (xScale(data_item.date) - 50) + "," + yScale(data_item.num_owned) + ")"
+		} else {
+			return "translate(" + xScale(data_item.date) + "," + yScale(data_item.num_owned) + ")"
+		}
 		});
 
 		focus.select(".tooltip-label-text")
@@ -204,38 +213,16 @@ d3.csv(link, function(data) {
 
 		focus.select(".tooltip-value-text")
 		.text(data_item.num_owned)
-		.attr("transform", function(d) {
+		.attr("transform", function() {
 			if (data_item.num_owned < 10) {
 				return "translate(" + 4 + ",0)"
 			} 
 		});
 	}
 
-	//Initialize tooltip in the middle of the graph
-	focus.style("display", null);
-
-	var data_item = data[bisectDate(data, xScale.invert(300))]
-
-	focus.attr("transform", function() {
-	if (xScale(data_item.date) < 50) {
-		return "translate(" + (xScale(data_item.date) + 50) + "," + yScale(data_item.num_owned) + ")"
-	} else if (xScale(data_item.date) > width - 50) {
-		return "translate(" + (xScale(data_item.date) - 50) + "," + yScale(data_item.num_owned) + ")"
-	} else {
-		return "translate(" + xScale(data_item.date) + "," + yScale(data_item.num_owned) + ")"
-	}
-	});
-
-	focus.select(".tooltip-label-text")
-	.text(formatMonth(data_item.date).toUpperCase() + " " + formatYear(data_item.date));
-
-	focus.select(".tooltip-value-text")
-	.text(data_item.num_owned)
-	.attr("transform", function() {
-		if (data_item.num_owned < 10) {
-			return "translate(" + 4 + ",0)"
-		} 
-	});
+	//Initialize tooltip in the middle of the viz on load
+	var data_item = data[bisectDate(data, xScale.invert(width/2))]
+	displayTooltip(data_item);
 
 })
 
