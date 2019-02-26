@@ -1,4 +1,4 @@
-link = "http://http://167.99.20.216:8000/pairs_owned_over_time"
+link = "http://167.99.20.216:8000/pairs_owned_over_time"
 
 function responsivefy(svg) {
     // get container + svg aspect ratio
