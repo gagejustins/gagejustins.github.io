@@ -75,4 +75,4 @@ Leaving aside the initial shaking around when the programs were created, private
 
 # Conclusion
 
-There are a number of solid reasons why these costs have been growing, including increasing procedure costs, more expensive equipment, ill-structured incentives, and the employer provider model. This project doesn’t address any of that, and is just meant to visualize what’s been happening since 1960. I hope it’s helpful! If you have any questions or comments, [email me](mailto:gagejustins@gmail.com) or shout at @jgage718.
+There are a number of solid reasons why these costs have been growing, including increasing procedure costs, more expensive equipment, ill-structured incentives, and the employer provider model. This project doesn’t address any of that, and is just meant to visualize what’s been happening since 1960. I hope it’s helpful! If you have any questions or comments, [email me](mailto:gagejustins@gmail.com) or shout at @itunpredictable.

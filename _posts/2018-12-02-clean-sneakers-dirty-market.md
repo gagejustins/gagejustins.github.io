@@ -80,7 +80,7 @@ The low-end has been around basically forever. Stan Smiths were released in the 
 
 Mid end clean sneaks will sell for less than $300, but offer a significant quality upgrade over the low-end. A few popular brands that I’ve explored:
 
-* [Greats](https://www.greats.com/) (the darling of this category, but ultimately disappointing for a number of reasons – [see my Twitter](https://twitter.com/jGage718/status/891073888297394178))
+* [Greats](https://www.greats.com/) (the darling of this category, but ultimately disappointing for a number of reasons – [see my Twitter](https://twitter.com/itunpredictable/status/891073888297394178))
 * [Koio Collective](https://www.koio.co/?utm_expid=.e2MhJ8QdSrKTxgBkYnErtQ.0&utm_referrer=) (upstart NYC brand with cool new designs)
 * [Axel Arigato](https://axelarigato.com/usd/) (Amsterdam + Japan aesthetic, big fan)
 * Various DTC shoe brands ([Beckett Simonon](https://www.beckettsimonon.com/collections/mens/products/morgen-classic-full-grain-leather-white-white), [Velasca](https://www.velasca.com/pages/athletics), etc.)
@@ -92,7 +92,7 @@ The mid-end combines elements of the low and high-end (thanks, professor obvious
 <p style="font-style: italic; font-size: 1em;">(Axel Arigato keeps a really clean shape, but has some models with cool detailing, like this marbling on the sole of the Clean 90)</p>
 </div>
 
-These brands are getting pretty popular, too. I’ve seen a ton of men and women in NYC wearing Greats (always the flagship “Royale” model, [which I just can’t stand](https://twitter.com/jGage718/status/879526149315067904)), and they’re a significant upgrade over the lower end alternative. Koio prices themselves like higher end, but offers mid-end feel and fits in my experience. 
+These brands are getting pretty popular, too. I’ve seen a ton of men and women in NYC wearing Greats (always the flagship “Royale” model, [which I just can’t stand](https://twitter.com/itunpredictable/status/879526149315067904)), and they’re a significant upgrade over the lower end alternative. Koio prices themselves like higher end, but offers mid-end feel and fits in my experience. 
 
 The mid-end is a great place to shop once you’ve gotten your mileage out of Stan Smiths or the like, and you’re looking to step up to better leather and sleeker aesthetics without breaking the bank. It’s a great way to differentiate your style along with all the other men differentiating their style in the exact same way.
 
@@ -132,7 +132,7 @@ _My recommendation: (fake) studies have shown that Common Projects make any man 
 
 # Conclusion
 
-Buying sneakers is like a journey with multiple steps – you’ll develop taste over time and decide what price point and style is best for you. Take it slowly, keep good care of what you’ve got, and you’ll be in great hands. And if you're ever looking for advice or ideas: hit me up on Twitter ([@jgage718](https://twitter.com/jGage718)).
+Buying sneakers is like a journey with multiple steps – you’ll develop taste over time and decide what price point and style is best for you. Take it slowly, keep good care of what you’ve got, and you’ll be in great hands. And if you're ever looking for advice or ideas: hit me up on Twitter ([@itunpredictable](https://twitter.com/itunpredictable)).
 
 
 

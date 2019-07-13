@@ -6,18 +6,18 @@ custom_js:
 - libs/moment.js
 ---
 
-<!-- <div class="row">
-	<div class="col-md-5 sneaker-viz" id="pairs-owned">
-	</div>
-	<div class="col-md-1"></div>
-	<div class="col-md-5 sneaker-viz" id="pairs-per-brand">
+<div class="row sneaker-viz">
+	<div class="col-md-10">
+		<h1>Sneaker Wear Counts</h1>
+		<div class="dropdown" id="bubbles-toolbar">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="bubbles-toolbar-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			SELECT GROUPING
+			</button>
+			<div class="dropdown-menu" aria-labelledby="bubbles-toolbar-button">
+				<a class="dropdown-item" href="#" id="all">All Pairs</a>
+				<a class="dropdown-item" href="#" id="brand">Pairs by Brand</a>
+			</div>
+		</div>
+		<div id="viz" style="padding-top: 35px;"></div>
 	</div>
 </div>
- -->
-
-<h1>Sneaker Wear Counts</h1>
-<div id="toolbar">
-  <a href="#" id="all" class="button active">All Pairs</a>
-  <a href="#" id="brand" class="button">Wears by Brand</a>
-</div>
-<div id="viz"></div>

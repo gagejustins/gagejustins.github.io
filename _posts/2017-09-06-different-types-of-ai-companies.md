@@ -70,4 +70,4 @@ As an analyst, I try to categorize companies into one of these buckets when I’
 
 The majority of companies I get to talk to (probably around 80%) are working on some sort of industry AI. Of the remaining 20%, 15% are Application AI companies and 5% are Core AI (again, roughly). Other investors, specifically AI-only investors, might have different distributions. We’ll also be looking for founders with the right backgrounds for the type of company they’re running (see above).
 
-If you’re building a company in any part of this framework, I’d love to talk and hear about what you’re working on. You can reach me on [Twitter](https://twitter.com/jgage718) or through email (below).
+If you’re building a company in any part of this framework, I’d love to talk and hear about what you’re working on. You can reach me on [Twitter](https://twitter.com/itunpredictable) or through email (below).

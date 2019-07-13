@@ -195,7 +195,7 @@ The error message will be <span class="code">binascii.Error: Incorrect padding</
 
 You can create a simple workaround in the meanwhile by exporting your Fernet Key manually when you create a container (this likely won’t work if you’re using Docker Compose). Just copy the command from <span class="code">entrypoint.sh</span> that’s supposed to work – <span class="code">export FERNET_KEY = python -c "from cryptography.fernet import Fernet; FERNET_KEY = Fernet.generate_key().decode(); print(FERNET_KEY)</span> – and run it in your container. I run this through a [Docker Exec]("https://docs.docker.com/engine/reference/commandline/exec/") command in my Makefile so I don’t need to do it manually each time I build.
 
-<span style="font-style: italic;">(Note: I’m pretty new to Docker, so there’s a good chance I’ve made some errors above. Send some feedback [on Twitter!]("https://twitter.com/jGage718"))</span>
+<span style="font-style: italic;">(Note: I’m pretty new to Docker, so there’s a good chance I’ve made some errors above. Send some feedback [on Twitter!]("https://twitter.com/itunpredictable"))</span>
 
 ## Next Steps
 
