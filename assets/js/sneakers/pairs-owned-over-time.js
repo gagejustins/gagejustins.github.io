@@ -27,7 +27,7 @@ function responsivefy(svg) {
     }
 }
 
-var col_width = parseInt(d3.select("#pairs-owned").style("width"));
+var col_width = parseInt(d3.select("#pairs-owned").style("width")) - 40;
 
 var width = col_width,
 height = 300,
