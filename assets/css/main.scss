@@ -14,8 +14,6 @@
   --main-header-color: #5C755E;
   --main-body-color: #F9F4F1;
   --main-footer-color: #9C9F84;
-  --portfolio-body-font: Space Mono, monospace;
-  --portfolio-header-font: VT323, monospace;
 }
 
 /* Website wide elements */
@@ -376,6 +374,109 @@ h2.supreme-light {
 
 /* End Navbar elements */
 
+/* Portfolio page elements */
+
+.portfolio .row {
+    padding: 70px 0px 70px 0px;
+}
+
+.portfolio .text-image-center {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.portfolio .text-image-center p {
+    font-family: Futura, sans-serif;
+    font-style: italic;
+}
+
+.portfolio-image:hover img {
+    transition: .3s;
+    opacity: .075;
+}
+
+.portfolio-image:hover > div.text-image-center {
+    display: block;
+}
+
+.card.hover-card:hover, .card.hover-card:hover {
+    transition: .3s;
+    -moz-transform: translate(0px, -12px);
+    -ms-transform: translate(0px, -12px);
+    -o-transform: translate(0px, -12px);
+    -webkit-transform: translate(0px, -12px);
+    transform: translate(0px, -12px);
+}
+
+.card.portfolio-card {
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px #C6C6C6;
+}
+
+.card.portfolio-card .card-body p {
+    padding: 50px 10px 50px 10px;
+    font-family: var(--main-body-font);
+    font-size: .95em;
+}
+
+.card.portfolio-card .card-body h5 {
+    padding: 50px 10px 0px 10px;
+    font-family: var(--main-header-font);
+    font-size: 1.4em;
+}
+
+.card.portfolio-card .card-body a {
+    color: white;
+    font-weight: 500;
+}
+
+.card.portfolio-card .card-body p.card-text.portfolio-subhead {
+    padding-top: 10px;
+}
+
+.card-header.portfolio-card-header {
+    border-top: 1px #f8f8f8;
+    color: black;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card-footer.portfolio-card-footer {
+    font-size: .9em;
+    padding: 15px 15px 7px 15px;
+    text-align: center;
+    font-family: var(--main-body-font);
+}
+
+.card-header.portfolio-card-header-white {
+    background-color: white;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.portfolio-thumbnail {
+    box-shadow: 5px 5px 20px #C6C6C6;
+    width: 25%;
+    margin-bottom: 25px;
+}
+
+.card-brand-image {
+    padding-top: 30px;
+}
+
+/* End Portfolio page elements */
+
 /* Writing page elements */
 
 .card.writing-card {
@@ -620,58 +721,6 @@ body select {
     font-weight: bold;
 }
 
-text.brand {
-    font-family: var(--main-body-font);
-    font-weight: bold;
-    font-size: 1em;
-}
-
-#bubbles-toolbar-button {
-    background-color: red;
-    padding: 10px 10px 10px 10px;
-    border: none;
-    color: white;
-    font-family: var(--main-body-font);
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.sneaker-viz .dropdown-item {
-    font-family: var(--main-body-font);
-    &:hover,
-    &:focus {
-        background-color: black;
-        color: white;
-    }
-}
-
-.sneaker-viz a.dropdown-item.active {
-    background-color: black !important;
-    color: white;
-}
-
-div#sneaker-tooltip.tooltip {
-    font-family: var(--main-body-font);
-    background: black;
-    color: black;
-    padding: 10px 10px 10px 10px;
-    box-shadow: 0px 0px 5px #B8B8B8;
-    border-radius: 3px;
-}
-
-/*Make half of the tooltip a different color*/
-div#sneaker-tooltip.tooltip:before {
-    border-radius: 3px 0px 0px 3px;
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 38px;
-    background: white;
-    z-index:-1;
-}
-
 /* End sneaker visualiations elements */
 
 /* Topics page elements */
@@ -886,172 +935,3 @@ ul.projects {
 }
 
 /* End CV page elements */
-
-/* Unpredictable Site */
-
-/* Portfolio page elements */
-
-.portfolio {
-    color: black;
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-.portfolio p {
-    font-family: var(--portfolio-header-font);
-}
-
-.portfolio .row {
-    padding: 70px 0px 70px 0px;
-}
-
-.portfolio body {
-    margin-top: -120px;
-}
-
-.portfolio .text-image-center {
-    display: none;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-}
-
-.portfolio-image:hover img {
-    transition: .3s;
-    opacity: .075;
-}
-
-.portfolio-image:hover > div.text-image-center {
-    display: block;
-}
-
-.card.hover-card:hover, .card.hover-card:hover {
-    transition: .3s;
-    -moz-transform: translate(0px, -12px);
-    -ms-transform: translate(0px, -12px);
-    -o-transform: translate(0px, -12px);
-    -webkit-transform: translate(0px, -12px);
-    transform: translate(0px, -12px);
-}
-
-.card.portfolio-card {
-    margin: 20px 5px 20px 5px;
-    text-align: center;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 5px 5px 20px #C6C6C6;
-}
-
-.card.portfolio-card .card-body p {
-    padding: 50px 10px 50px 10px;
-    font-family: var(--portfolio-body-font);
-    font-size: .95em;
-}
-
-.card.portfolio-card .card-body h5 {
-    padding: 50px 10px 0px 10px;
-    font-family: var(--portfolio-body-font);
-    font-size: 1.4em;
-}
-
-.card.portfolio-card .card-body a {
-    color: white;
-    font-weight: 500;
-}
-
-.card.portfolio-card .card-body p.card-text.portfolio-subhead {
-    padding-top: 10px;
-}
-
-.card-header.portfolio-card-header {
-    border-top: 1px #f8f8f8;
-    color: black;
-    text-align: center;
-    padding: 30px 30px 30px 30px;
-    border-radius: 8px 8px 0px 0px;
-}
-
-.card-footer.portfolio-card-footer {
-    font-size: .9em;
-    padding: 15px 15px 7px 15px;
-    text-align: center;
-    font-family: var(--main-body-font);
-}
-
-.card-header.portfolio-card-header-white {
-    background-color: white;
-    text-align: center;
-    padding: 30px 30px 30px 30px;
-    border-radius: 0px 0px 8px 8px;
-}
-
-.portfolio-thumbnail {
-    box-shadow: 5px 5px 20px #C6C6C6;
-    width: 25%;
-    margin-bottom: 25px;
-}
-
-.card-brand-image {
-    padding-top: 30px;
-}
-
-.portfolio .main-logo-svg {
-    width: 6%;
-    min-width: 100px;
-    stroke: white;
-    margin-bottom: -20px;
-}
-
-.portfolio .main-logo-svg path {
-  stroke: white;
-}
-
-.portfolio .main-logo-svg path.heart {
-  stroke: white;
-  fill: white;
-}
-
-.portfolio .logo-container {
-    background-color: black;
-}
-
-.portfolio .portfolio-sections p:hover {
-    color: red;
-    transition: 0.3s
-}
-
-#main-logo-text {
-    font-size: 4em;
-    color: white;
-    font-family: var(--portfolio-header-font);
-}
-
-.portfolio .vertical-rule {
-    margin: -11px 0px 30px 0px;
-    border-left: 1px solid white; 
-    height: 34px; 
-    position: absolute; 
-    left: 50%;
-}
-
-.portfolio .main-subtext p {
-    padding-top: 20px;
-    font-size: 2em;
-    color: white;
-}
-
-.portfolio .main-subtext a {
-    font-size: 1em;
-    color: white;
-}
-
-.portfolio .main-subtext a:hover {
-    color: red;
-    text-decoration: none;
-}
-
-/* End Portfolio page elements */
