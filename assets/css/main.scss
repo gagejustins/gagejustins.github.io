@@ -9,8 +9,8 @@
 @import "bootstrap_customization";
 
 :root {
-  --main-body-font: Niramit, sans-serif;
-  --main-header-font: Niramit, sans-serif;
+  --main-body-font: Lato, sans-serif;
+  --main-header-font: DM Serif Display, serif;
   --main-header-color: #5C755E;
   --main-body-color: #F9F4F1;
   --main-footer-color: #9C9F84;
@@ -35,7 +35,7 @@ a:hover {
 
 p, ul, ol {
     font-family: var(--main-body-font);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.3em;
     line-height: 1.65em;
     color: #333;
@@ -351,7 +351,7 @@ h2.supreme-light {
 }
 
 .navbar ul li a {
-    font-family: var(--main-body-font);
+    font-family: var(--main-header-font);
     letter-spacing: 1px;
     font-size: .8em;
     font-weight: 600;
@@ -656,8 +656,12 @@ body select {
 /* Sneaker visualizations elements */
 
 .sneaker-viz .axis {
-    font-family: var(--main-body-font);
+    font-family: var(--main-header-font);
     stroke: black;
+}
+
+p.sneaker-viz.sneaker-viz-header {
+    font-family: var(--main-header-font);
 }
 
 .sneaker-viz .axis text {
