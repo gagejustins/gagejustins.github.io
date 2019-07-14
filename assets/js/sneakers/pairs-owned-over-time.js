@@ -66,7 +66,7 @@ d3.csv(link, function(data) {
 
 	//Create X axis
 	var xAxis = d3.axisBottom(xScale)
-	.ticks(d3.timeMonth.every(4))
+	.ticks(d3.timeMonth.every(6))
 	.tickSizeOuter(0);
 
 	//Append x axis
