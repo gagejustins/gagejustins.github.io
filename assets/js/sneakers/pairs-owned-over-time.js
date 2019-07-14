@@ -66,7 +66,7 @@ d3.csv(link, function(data) {
 
 	//Create X axis
 	var xAxis = d3.axisBottom(xScale)
-	.ticks(7)
+	.ticks(d3.timeMonth.every(4))
 	.tickSizeOuter(0);
 
 	//Append x axis
@@ -86,6 +86,7 @@ d3.csv(link, function(data) {
 	.datum(data)
 	.attr("class", "line")
 	.attr("d", line)
+	.style("stroke", "red")
 	.on("mouseover", function(d) {
 		d3.select(this)
 		.style("stroke", "#ff9999")
@@ -94,16 +95,6 @@ d3.csv(link, function(data) {
 		d3.select(this)
 		.style("stroke", "red")
 	});
-
-	// //Add points
-	// svg.selectAll("dot")
-	// .data(data)
-	// .enter()
-	// .append("circle")
-	// .attr("r", 3.5)
-	// .attr("cx", function(d) { return xScale(d.date); })
-	// .attr("cy", function(d) { return yScale(d.num_owned); })
-	// .attr("transform", "translate(" + offset_x + ",0)");
 
 	//Group for tooltip
 	var focus = svg.append("g")
@@ -222,7 +213,7 @@ d3.csv(link, function(data) {
 
 	//Initialize tooltip in the middle of the viz on load
 	var data_item = data[bisectDate(data, xScale.invert(width/2))]
-	displayTooltip(data_item);
+	//displayTooltip(data_item);
 
 })
 
