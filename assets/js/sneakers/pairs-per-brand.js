@@ -1,4 +1,4 @@
-link = "http://sneaker-track.com:8000/pairs_per_brand"
+link = "http://sneaker-track.com:5000/pairs_per_brand"
 
 var col_width = parseInt(d3.select("#pairs-owned").style("width"));
 
